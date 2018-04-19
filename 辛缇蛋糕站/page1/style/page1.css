@@ -1,0 +1,151 @@
+body{
+	background:#f3f3f3;
+}
+
+.page1-head{
+	background:#fff;
+}
+
+.page1-head .cont{
+	margin:0 auto;
+	padding:20px;
+	width:1146px;
+	height:60px;
+}
+
+.page1-head .cont{
+	margin:0 auto;
+	padding:20px 0;
+	width:1146px;
+	height:60px;
+}
+
+.page1-head .cont-l{
+	float:left;
+	width:70%;
+}
+
+.page1-head .cont-r{
+	float:right;
+	width:30%;
+}
+
+.page1-head .cont-l h2{
+	font-weight:normal;	
+}
+
+.page1-head .ican{
+	
+}
+
+.page1-head .ican li{
+	float:left;
+	padding-left:20px;
+	margin-right:20px;
+	font-size:13px;
+	line-height:26px;
+	color:#999;
+}
+
+.page1-head .ican .img{
+	background:url(../images/page1-ican1.jpg) no-repeat center left;
+}
+
+.page1-head .ican .see{
+	background:url(../images/page1-ican2.jpg) no-repeat center left;
+}
+
+.page1-head .ican .time{
+	background:url(../images/page1-ican3.jpg) no-repeat center left;
+}
+
+.page1-head .cont-r a{
+	float:right;
+	display:inline-block;
+	margin:20px 10px 0 0;
+	padding:4px 16px;
+	font-size:14px;
+	color:#fff;
+	background:#de1620;
+	border-radius:20px;
+}
+
+.slide-page1{
+	position:relative;
+	margin:0 auto;
+	width:1146px;
+	height:640px;
+	background:#f3f3f3;
+}
+
+.page1-slick{
+	position:relative;
+	margin:100px auto 0;
+	width:1146px;
+	height:640px;
+}
+
+.page1-slick-btnl{
+	position:absolute;
+	left:-80px;
+	top:40%;
+	cursor:pointer;
+}
+
+.page1-slick-btnr{
+	position:absolute;
+	right:-70px;
+	top:40%;
+	cursor:pointer;
+}
+
+.slide-page1 .text{
+	margin:0 auto 20px;
+	padding:0 20px;
+	width:1106px;
+	height:70px;
+	background:#fff;	
+}
+
+.slide-page1 .text .show{
+	display:block;
+}
+
+.slide-page1 .text li{
+	display:none;
+}
+
+.slide-page1 .text span{
+	font-size:20px;
+	line-height:70px;
+}
+
+.slide-page1 .text span i{
+	display:block;
+	float:left;
+	font-style:normal;
+	line-height:65px;
+	color:#de1620;
+}
+
+
+.slide-page1 .dots{
+	margin:20px auto 100px;
+	width:220px;
+	overflow:hidden;
+}
+
+.slide-page1 .dots li{
+	float:left;
+	margin-right:6px;
+	width:15px;
+	height:15px;
+	background:#000;
+	border-radius:8px;
+}
+
+.slide-page1 .dots .active{
+	background:#de1620;
+}
+
+

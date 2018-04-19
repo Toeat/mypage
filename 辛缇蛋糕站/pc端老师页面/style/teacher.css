@@ -1,0 +1,92 @@
+/*课程内容样式*/
+.content{
+    margin:0;
+    width:100%;
+    background:#f9fdff;
+}
+
+img{
+    display:block;
+}
+
+.allcontent{
+    padding:0;
+}
+
+.topadcs{
+    margin:0;
+}
+
+.plc {
+    background: #f9fdff;
+    line-height: 46px;
+	padding-left:20px;
+}
+
+.teacher{
+	margin:0 auto;
+	padding:100px 50px;
+	width:1154px;
+	overflow:hidden;
+}
+
+.teacher>li{
+	margin-bottom:100px;
+	padding-bottom:5px;
+	width:1100px;
+	height:734px;
+	background:url(../teacher-imgs/teacher-bottom.jpg) no-repeat bottom;
+	background-size:100%;
+}
+
+.teacher>li img{
+	
+}
+
+.teacher .cont{
+	margin:144px 0 0;
+	width:672px;
+	overflow:hidden;
+}
+
+.teacher ul{
+	overflow:hidden;
+	color:#f19149;
+}
+
+.teacher ul li{
+	float:left;
+	font-weight:100;
+}
+
+.teacher ul .font1{
+	padding-right:70px;
+	font-size:90px;
+	font-weight:normal;
+}
+
+.teacher ul .font2{
+	font-size:43px;
+}
+
+.teacher p{
+	margin-top:50px;
+	font-size:18px;
+	color:#666;
+}
+
+.teacher dl{
+	overflow:hidden;
+}
+
+.teacher dl dt{
+	margin-top:30px;
+	font-size:30px;
+	color:#f19149;
+}
+
+.teacher dl dd{
+	margin:6px 0 0;
+	color:#666;
+	font-size:18px;
+}

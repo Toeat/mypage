@@ -1,0 +1,204 @@
+.coures-box{
+	padding-top:.5rem;
+	width:100%;
+	overflow:hidden;
+	background:#fafafa;
+	border-bottom:3px solid #cccaca;
+	color:#5e5e5e;
+	text-align:center;
+}
+
+.coures-box .coures-box-h3{
+	font-size:.5rem;
+}
+
+.coures-box .coures-line{
+	position:relative;
+	margin:.15rem auto;
+	width:1.4rem;
+	height:2px;
+	background:#c9c9c9;
+}
+
+.coures-box .coures-line i{
+	position:absolute;
+	top:-2px;
+	left:25%;
+	display: block;
+	width:.7rem;
+	height:4px;
+	background:#909090;
+}
+
+.coures-box .coures-box-p{
+	margin:0 auto;
+	width:86%;
+	font-size:.24rem;
+}
+
+.teach .cont{
+	margin:.48rem auto;
+	width:90%;
+	overflow:hidden;
+}
+
+.teach .cont li{
+	float:left;
+	margin:0 5% .3rem 0;
+	width:47.5%;
+	height:1.6rem;
+	background:#fff;
+}
+
+.teach .cont li:nth-child(2n){
+	margin-right:0;
+}
+
+.teach .cont li img{
+	float:left;
+	width:50%;
+	height:100%;
+}
+
+.teach .cont li div{
+	float:left;
+	width:50%;
+}
+
+.teach .cont li div strong{
+	font-weight:normal;
+	line-height:.7rem;
+}
+
+.teach .cont li div i{
+	display:block;
+	margin:0 auto;
+	width:80%;
+	height:1px;
+	background:#a49fa1;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #fafafa;
+}
+
+.teach .cont li p{
+	margin:0 auto;
+	width:80%;
+	font-size:.24rem;
+	padding-top:.1rem;
+}
+
+.cake .imgs{
+	margin:.4rem auto 0;
+	width:94%;
+}
+
+.cake .imgs img{
+	margin-bottom:.1rem;
+	width:100%;
+}
+
+.cake a{
+	display:block;
+	margin:.2rem auto;
+	width:1.68rem;
+	height:.69rem;
+	background:url(../course-imgs/cake-btn.jpg) no-repeat;
+	background-size:100%;
+}
+
+.ambient{
+	color:#000;
+}
+
+.ambient .imgs{
+	margin:.4rem auto;
+	width:92%;
+}
+
+.ambient .imgs img{
+	width:100%;
+}
+
+.ambient .imgs img:nth-child(1){
+	margin-bottom:.04rem;
+}
+
+.content .proof h3{
+	font-size:.36rem;
+}
+
+.content .proof .imgs{
+	margin:0 auto;
+	width:96%;
+}
+
+.content .proof .imgs>div{
+	padding:.1rem 0;
+	width:100%;
+	overflow:hidden;
+}
+
+.content .proof .imgs>div div{
+	float:left;
+	width:10%;
+}
+
+.content .proof .imgs p{
+	display:inline-block;
+	vertical-align:middle;
+	padding:.1rem 0;
+	width:.3rem;	
+	font-size:.20rem;
+	border:1px solid #a8a8a8;
+}
+
+.content .proof .imgs img{
+	float:right;
+	width:90%;
+}
+
+.content .proof .imgs .img-style{
+	padding:.2rem 0 .4rem;
+	width:100%;
+}
+
+.brand img{
+	margin:.2rem auto .4rem;
+	width:96%;
+}
+
+.support .imgs{
+	margin:.3rem auto;
+	width:96%;
+	overflow:hidden;
+}
+
+.support .imgs img:nth-child(1){
+	width:100%;
+}
+
+.support .imgs img{
+	float:left;
+	margin:0 2% .1rem 0;
+	width:49%;
+}
+
+.support .imgs img:nth-child(2n+1){
+	margin-right:0;	
+}
+
+.feedback .imgs{
+	margin:.3rem auto;
+	width:84%;
+	overflow:hidden;
+}
+
+.feedback .imgs img{
+	float:left;
+	margin:0 4% .2rem 0;
+	width:48%;
+}
+
+.feedback .imgs img:nth-child(2n){
+	margin-right:0;
+}

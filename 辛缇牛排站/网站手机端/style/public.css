@@ -1,0 +1,264 @@
+/*公共样式*/
+body,div,img,ol,ul,li,p,h1,h2,h3,h4,h5,h6,textarea,i,dd,dt,dl,em{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+img{
+	display:block;
+	border:0px;
+}
+
+em{
+	font-style:normal;
+} 
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+}
+
+*{
+	font-size:.3rem;
+}
+
+.w-100{
+	width:100%;
+}
+
+.w-auto{
+	margin:0 auto;
+}
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+
+.content .mg-r-0,.slide2 .images .mg-r-0{
+	margin-right:0;
+}
+
+.content .show{
+	display:block;
+}
+
+.content .w-96{
+	width:96%;
+	margin:0 auto;
+}
+
+.ov-hide{
+	overflow:hidden;
+}
+
+/*头部样式*/
+.header{
+	position:relative;
+	width:100%;
+	overflow:hidden;
+}
+.head-top{
+	width:100%;
+	height:1.3rem;
+}
+
+.head-top img{
+	float:left;
+	width:36%;
+	margin-top:0.2rem;
+}
+
+.menu-ican{
+	margin:.3rem .4rem 0 0;
+	float:right;
+	width:10%;
+	height:.3rem;
+}
+
+.menu-ican dd{
+	margin-top:.1rem;
+	width:100%;
+	height:.1rem;
+	background:#594022;
+	border-radius:.05rem;
+}
+
+.menu-ican p:first-child{
+	margin-top:0;
+}
+
+.slide1 img{
+	width:100%;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	margin:0 10px;
+}
+
+.swiper-pagination-bullet{
+	width:.2rem;
+	height:.2rem;
+}
+
+.head-nav{
+	display:none;
+	position:absolute;
+	left:0;
+	width:170%;
+	top:1.3rem;
+	overflow:hidden;
+	height:1rem;
+	z-index:999;
+	background:rgba(255,255,255,.9);
+}
+
+.head-nav .active{
+	padding:0 2.5%;
+}
+
+.head-nav .active a{
+	border-top:3px solid #4c3111;
+}
+
+.head-nav li{
+	float:left;
+	padding:3px 2.5% 0;
+	overflow:hidden;
+}
+
+.head-nav li a{
+	display:block;
+	text-align:center;
+	color:#4c3111;
+	line-height:0.9rem;
+	box-sizing:content-box;
+}
+
+.swiper-pagination-bullet{
+	background:#fff;
+	opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+	background:#898989;
+}
+
+.head-txt{
+	padding-bottom:.3rem;
+	width:100%;
+	overflow:hidden;
+}
+
+.head-txt li{
+	display:none;
+	margin:0 auto;
+	width:88%;
+	padding:.2rem 4%;
+	background:#ecf4f7;
+}
+
+.head-txt .active{
+	display:block;
+}
+
+.head-txt li h3{
+	font-size:0.5rem;
+	line-height:.8rem;
+	color:#4c3111;
+	font-weight:bold;
+}
+
+.head-txt li img{
+	width:92%;
+}
+
+.head-txt li dl{
+	overflow:hidden;
+	color:#4c3111;
+}
+
+.head-txt li dd{
+	float:left;
+	font-size:.32rem;
+	margin-right:.3rem;
+	line-height:.6rem;
+}
+
+.head-txt li p{
+	font-size:.28rem;
+	color:#82807e;
+}
+
+.head-txt li a{
+	display:block;
+	margin:2% auto;
+	padding:0 2.4%;
+	width:40%;
+	height:.6rem;
+	font-size:.32rem;
+	line-height:.6rem;
+	text-align:center;
+	border:1px solid #898989;
+}
+
+
+/*底部样式*/
+.footer{
+	padding:.2rem 0 .4rem;
+	overflow:hidden;
+	background:#fff;
+}
+
+.footer h3{
+	margin:0 auto;
+	width:40%;
+	font-size:.5rem;
+	color:#856d4a;
+	line-height:1rem;
+	text-align:center;
+	background:url(../images/arrow.jpg) no-repeat right center;
+	background-size:15%;
+}
+
+.footer .footer-code{
+	margin:0 auto;
+}
+
+.footer ul{
+	margin:0 auto;
+	padding:.3rem 0;
+	width:94%;
+}
+
+.footer ul li:nth-child(1){
+	width:45%;
+	float:left;
+}
+
+.footer ul li:nth-child(2){
+	margin-top:.35rem;
+	width:50%;
+	float:right;
+}
+
+.footer ul li:nth-child(1) img{
+	width:100%;
+}
+
+.footer ul li:nth-child(2) p{
+	font-size:.24rem;
+	color:#856d4a;
+}
