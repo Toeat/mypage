@@ -1,0 +1,201 @@
+/*公共样式*/
+body,div,img,ol,ul,li,p,h1,h2,h3,h4,h5,h6,textarea,i,dd,dt,dl,em{
+	padding:0;
+	margin:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+}
+
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+img{
+	display:block;
+	border:0px;
+}
+
+input::-ms-clear{display:none;}
+
+em{ font-style:normal}
+
+.w-100{
+	width:100%;
+}
+
+.w-auto{
+	margin:0 auto;
+	width:1080px;
+}
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+
+.img-100 img{
+	width:100%;
+	height:100%;
+}
+
+
+
+/*头部样式*/
+.header{
+	padding-top:120px;
+}
+
+.head-nav{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:144px;
+	z-index:99;
+}
+
+.head-nav .bg{
+	width:100%;
+	height:120px;
+	background:#fff;
+	box-shadow:0px 1px 20px #c3bfbc;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#c3bfbc')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#c3bfbc');
+}
+
+.head-nav .cont{
+	position:relative;
+	top:-120px;
+	left:50%;
+	margin-left:-500px;
+	width:1000px;
+	height:144px;
+	z-index:999;
+}
+
+.head-nav .cont li{
+	float:left;
+	width:114px;
+	height:168px;
+	text-align:center;
+}
+
+.head-nav .cont img{
+	margin:20px auto 0;
+}
+
+.head-nav .cont span{
+	font-size:16px;
+	line-height:30px;
+	color:#e92c28;
+}
+
+.head-nav .cont .style-home{
+	width:307px;
+	height:168px;
+}
+
+.head-nav .cont .style-home img{
+	margin:0;
+}
+
+.header .slick1 a{
+	outline:none;
+}
+
+/*底部样式*/
+.footer .link-box{
+	width:100%;
+	height:484px;
+	background:#000;
+	color:#fff;
+}
+
+.footer .link-box .box-content{
+	margin:0 auto;
+	width:1264px;
+	height:484px;
+}
+
+.footer .link-box li{
+	margin-top:40px;
+	float:left;
+	width:250px;
+}
+
+.footer .link-box .list1{
+	width:312px;
+}
+
+
+.footer .link-box li a{
+	display:block;
+	font-size:18px;
+	line-height:54px;
+	color:#fff;
+}
+
+.footer .link-box .line{
+	margin-top:84px;
+	width:1px;
+	height:310px;
+	background:#fff;
+}
+
+.footer .link-box .blogroll{
+	margin-top:40px;
+	width:200px;
+	text-align:center;
+}
+
+.footer .link-box .blogroll h3{
+	font-size:24px;
+	line-height:54px;
+}
+
+.footer .link-box .blogroll a{
+	display:block;
+	font-size:16px;
+	line-height:30px;
+	color:#fff;
+}
+
+.footer .footer-record{
+	margin:0 auto;
+	width:1240px;
+	padding-top:42px;
+	height:154px;
+}
+
+.footer .record-cont{
+	height:114px;
+}
+
+.record-cont .record-txt{
+	padding-top:36px;
+	width:800px;
+	height:78px;
+	color:#856d4a;
+	font-size:18px;
+	line-height:30px;
+}
+
+.footer-record img{
+	display:block;
+}
+
+.footer-record .fr{
+	margin-right:12px;
+}
