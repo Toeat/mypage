@@ -282,6 +282,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .footer ul li:nth-child(2) p{
-	font-size:.24rem;
+	font-size:.8rem;
 	color:#856d4a;
 }
