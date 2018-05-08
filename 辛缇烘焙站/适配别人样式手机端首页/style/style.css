@@ -1,0 +1,764 @@
+/*首页内容样式*/
+.header,.content,.footer{
+	margin:0 auto;
+	max-width:720px;
+}
+.content{
+	overflow:hidden;
+	background:#eee;
+}
+
+.content img{
+	width:100%;
+}
+
+.content .tit{
+	padding-top:.6rem;
+	text-align:center;
+}
+
+.content .tit span{
+	display:block;
+	font-size:.8rem;
+	color:#eb6100;
+}
+
+.content .tit h2{
+	font-size:1.8rem;
+	line-height:1.8rem;
+	color:#404040;
+}
+
+.content .tit i{
+	display:block;
+	margin:.5rem auto 0;
+	width:5rem;
+	height:3px;
+	background:#eb6100;
+	border-radius:.3rem;
+}
+
+.content .more{
+	margin:2rem auto 0;
+	padding-top:.87rem;
+	display:block;
+	width:8.7rem;
+	height:.6rem;
+	font-size:1.4rem;
+	color:#4f4f57;
+	text-align:center;
+	background:url(../images/project-arrow.jpg) no-repeat center top;
+	background-size:20%;
+}
+
+.content .more span{
+	display:block;
+	font-size:.8rem;
+}
+
+.content .ican{
+	position:absolute;
+	bottom:.2rem;
+	right:0;
+	width:30%;
+}
+
+
+.content .content-title,
+.signup .cont,
+.box{
+	margin:0 auto;
+	width:96%;
+}
+
+.content .box{
+	box-shadow:0px 0px 10px #d0cfcf;
+}
+
+.content .box,
+.content-title p,
+.signup .cont .left,
+.signup .cont .right,
+.signup .cont a,
+.signup .cont .txt i,
+.box,
+.content .news .rec-new,
+.news .cont .new-top img{
+	border-radius:.1rem;
+}
+
+
+.content .content-title{
+	margin-top:1rem;
+	height:8rem;
+	background:url(../images/content-title-bg.jpg) no-repeat;
+	background-size:100% 100%;
+	text-align:center;
+}
+
+.content-title h2{
+	padding-top:.6rem;
+	font-size:2rem;
+	line-height:3rem;
+	color:#983430;
+	font-weight:bold;
+}
+
+.content-title p{
+	margin:0 auto;
+	width:12.6rem;
+	height:1.5rem;
+	background:#983430;
+	line-height:1.5rem;
+	color:#fff;
+	font-size:1rem;
+	border-radius:.2rem;
+}
+
+.content-title a{
+	font-size:1rem;
+	color:#983430;
+	line-height:1.5rem;
+}
+
+.signup{
+	height:40rem;
+	background:url(../images/signup-bg.jpg) no-repeat left bottom;
+	background-size:100% 71%;
+}
+
+.signup .cont{
+	margin-top:1rem;
+	color:#fff;
+}
+
+.signup .cont .left{
+	margin-bottom:.3rem;
+	float:left;
+	width:28%;
+	height:10rem;
+	background:#333;
+	text-align:center;
+	border-radius:.3rem;
+}
+
+.signup .cont .left strong{
+	display:block;
+	margin-top:3.8rem;
+	font-size:1.4rem;
+	letter-spacing:.02rem;
+}
+
+.signup .cont .left span{
+	display:block;
+	font-size:.44rem;
+	letter-spacing:.01rem;
+}
+
+.signup .cont .right{
+	float:right;
+	width:71%;
+	height:10rem;
+	background:#e30202 url(../images/signup-shadow.jpg) no-repeat center 9.2rem;
+	background-size:90%;
+	border-radius:.3rem;
+}
+
+.signup .cont .right .right-box{
+	position:relative;
+	margin:.15rem auto;
+	width:92%;
+	height:9.6rem;
+	overflow:hidden;
+}
+
+.signup .cont .right ul{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	overflow:hidden;
+	color:#fff;
+}
+
+.signup .cont .right ul li{
+	height:2rem;
+}
+
+.signup .cont .right ul li p{
+	float:left;
+	font-size:.8rem;
+}
+
+.signup .cont .right ul li em{
+	float:right;
+	font-size:.8rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+.signup .cont a{
+	margin-top:.1rem;
+	padding-left:1.4rem;
+	display:block;
+	height:3.4rem;
+	font-size:1.4rem;
+	line-height:3.4rem;
+	color:#fff;
+	text-align:center;
+	background:#e30202 url(../images/signup-phone.png) no-repeat 35% center;
+	background-size:8%;
+	font-weight:bold;
+	clear:both;
+	border-radius:.3rem;
+}
+
+.signup .cont .txt{
+	margin-top:.9rem;
+	text-align:center;
+}
+
+.signup .cont .txt h3{
+	font-size:2rem;
+}
+
+.signup .cont .txt .tit-span{
+	display:block;
+	font-size:1.1rem;
+}
+
+.signup .cont .txt i{
+	display:block;
+	margin:.3rem auto 1rem;
+	width:6.4rem;
+	height:3px;
+	background:#fff;
+}
+
+.signup .cont .txt p{
+	line-height:1.6rem;
+	font-size:1rem;
+}
+
+.signup .cont .txt ul{
+	margin-top:3rem;
+	overflow:hidden;
+}
+
+.signup .cont .txt ul li{
+	float:left;
+	width:25%;
+	text-align:center;
+}
+
+.signup .cont .txt ul li img{
+	margin:0 auto .1rem;
+	width:80%;
+}
+
+.signup .cont .txt ul li span{
+	font-size:.8rem;
+}
+
+.course{
+	margin-top:.3rem;
+	padding-bottom:.3rem;
+	background:#f8f8f8;
+}
+
+.course .course-cont{
+	
+}
+
+.course .course-cont h3{
+	margin:.4rem 0;
+	padding-left:.1rem;
+	height:2.2rem;
+	font-size:1.4rem;
+	color:#333;
+	line-height:2.2rem;
+	border-left:5px solid #eb6100;
+}
+
+.course .course-cont .nav{
+	position:relative;
+	width:100%;
+	height:3.8rem;
+	border-radius:.1rem;
+	background:url(../images/course-nav-bg.jpg) no-repeat left bottom;
+	background-size:100%;
+}
+
+.course .course-cont .nav li{
+	float:left;
+	width:33%;
+	height:3.4rem;
+	text-align:center;
+	color:#333;
+	background:#fff;
+}
+
+.course .course-cont .nav li:nth-child(2){
+	width:34%;
+}
+
+.course .course-cont .nav li p{
+	margin-top:.4rem;
+	font-size:.86rem;
+}
+
+.course .course-cont .nav li span{
+	display:block;
+	font-size:.6rem;
+}
+
+.course .course-cont .nav img{
+	position:absolute;
+	bottom:.4rem;
+	left:14%;
+	width:5%;
+}
+.course .course-cont .imgs{
+	overflow:hidden;
+}
+
+.course .course-cont .imgs>div{
+	display:none;
+	margin:0 auto;
+	width:96%;
+}
+
+.course .course-cont .imgs .show{
+	display:block;
+}
+
+.course .course-cont .imgs>div img{
+	border-radius:.1rem;
+}
+
+.course .course-cont .imgs .pag,.scene .pag{
+	display:block;
+	overflow:hidden;
+	margin:0 auto;
+	width:5.8rem;
+}
+
+.course .course-cont .imgs .pag dd,.scene .pag li{
+	float:left;
+	margin:.4rem .4rem .4rem  0;
+	width:.8rem;
+	height:.8rem;
+	border-radius:.4rem;
+	background:#f7d4ad;
+}
+
+.course .course-cont .imgs .pag .active,.scene .pag .active{
+	width:3rem;
+	background:#ffb563;
+}
+
+.course .cont2{
+	margin-top:.52rem;
+}
+
+.project{
+	position:relative;
+	margin:1rem auto;
+	padding-bottom:4rem;
+	background:#fff;
+}
+
+.project .text{
+	margin-top:.3rem;
+	overflow:hidden;
+}
+
+.project .text img{
+	margin:1rem 0 0;
+	width:98%;
+}
+
+.project .text p{
+	margin:.2rem auto;
+	width:96%;
+	font-size:1rem;
+	line-height:1.6rem;
+	color:#404040;
+}
+
+.project .text a{
+	float:right;
+	display:inline-block;
+	width:6.6rem;
+	height:2rem;
+	font-size:1.2rem;
+	font-weight:bold;
+	text-align:center;
+	color:#6c361e;
+	background:url(../images/project-line.jpg) no-repeat center bottom;
+	background-size:100% 1px;
+}
+
+.project .line{
+	margin:2rem auto;
+	width:90%;
+}
+
+.recommend{
+	margin:0 auto .3rem;
+	height:30rem;
+	background:url(../images/recommend-bg.jpg) no-repeat;
+	background-size:100% 100%;
+}
+
+.recommend .tit span,
+.recommend .tit h2,
+.recommend .txt,
+.message .tit span,
+.message .tit h2{
+	color:#fff;
+}
+
+.content .recommend .tit{
+	padding-top:2rem;
+}
+
+.recommend .tit i,.message .tit i{
+	background:#fff;
+}
+
+.recommend .txt{
+	padding-top:.8rem;
+	font-size:.8rem;
+	text-align:center;
+}
+
+.content .recommend .mr-t{
+	padding-top:1rem;
+}
+
+.teacher{
+	position:relative;
+	margin:1rem auto;
+	background:#fff;
+}
+
+.teacher .text-box,.teacher .text-box2{
+	position:relative;
+	margin:.3rem auto 0;
+	width:90%;
+}
+
+.teacher .text-box img{
+	width:80%;
+	height:15rem;
+}
+
+.teacher .text-box .title{
+	top:12.6rem;
+	right:0;
+}
+
+.teacher .text-box .title,.teacher .text-box2 .title{
+	position:absolute;
+	font-size:1.2rem;
+	line-height:1.6rem;
+	color:#4f4f57;
+}
+
+.teacher .text-box .title i,.teacher .text-box2 .title i{
+	display:block;
+	float:right;
+	width:40%;
+	height:3px;
+	border-radius:3px;
+	background:#dab331;
+}
+
+.teacher .text-box p,.teacher .text-box2 p{
+	font-size:1rem;
+	line-height:1.4rem;
+	text-indent:.5rem;
+	color:#777;
+}
+
+.teacher .line{
+	margin:1rem auto;
+	width:90%;
+}
+
+.teacher .text-box2 img{
+	float:right;
+	width:70%;
+	height:15rem;
+}
+ 
+.teacher .text-box2 p{
+	clear:both;
+}
+
+.teacher .text-box2 .title{
+	top:12.6rem;
+	left:0;
+}
+
+.teacher .more{
+	margin:1rem auto 0;
+	padding-bottom:3.6rem;
+}
+
+.teacher .ican{
+	position:absolute;
+	bottom:-2rem;
+	left:0;
+	z-index:2;
+}
+
+.scene{
+	background:#fff;
+	position:relative;
+	margin-bottom:1rem;
+	padding-bottom:.8rem;
+}
+
+.scene .slide{
+	margin:1rem auto;	
+	border-radius:0;
+	box-shadow:none;
+}
+
+.scene .pag{
+	width:9.4rem;
+}
+
+.scene dl{
+	margin:2rem auto;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+}
+
+.scene dl dd{
+	float:left;
+	width:25%;
+}
+
+.scene dl dd img{
+	margin:0 auto .14rem;
+	width:80%;
+}
+
+.scene dl dd span{
+	font-size:1rem;
+	color:#404040;
+}
+
+.scene .bg-ican{
+	position:absolute;
+	bottom:-4rem;
+	right:0;
+	width:30%;
+	z-index:2;
+}
+
+.news{
+	position:relative;
+	background:#fff;
+	margin-bottom:1rem;
+	padding-bottom:.4rem;
+}
+
+.content .news .rec-new{
+	position:relative;
+	margin:1rem auto 0;
+	display:block;
+	height:11rem;
+}
+
+.content .news .rec-new img{
+	height:100%;
+}
+
+.content .news .rec-new p{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:2rem;
+	font-size:1.2rem;
+	line-height:2rem;
+	text-align:center;
+	color:#fff;
+	background:rgba(0,0,0,.7);
+	border-radius:0 0 .4rem .4rem;
+}
+
+.content .news .rec-new p em{
+	padding-right:.1rem;
+	font-size:1.2rem;
+	line-height:2rem;	
+}
+
+.content .news .nav{
+	width:100%;
+	height:4rem;
+}
+
+.content .news .nav li{
+	float:left;
+	width:25%;
+	height:4rem;
+	font-size:1.2rem;
+	line-height:4rem;
+	color:#333;
+	text-align:center;
+}
+
+.content .news .nav .active{
+	color:#ffaea2;
+}
+
+.news .cont{
+	
+}
+
+.news .cont li{
+	display:none;
+}
+
+.news .cont .show{
+	display:block;
+}
+
+
+.news .cont .new-top{
+	display:block;
+	overflow:hidden;
+	padding-bottom:.6rem;
+	background:url(../images/project-line2.jpg) no-repeat center bottom;
+	background-size:80% 1px;
+}
+
+.news .cont .new-top img{
+	margin-bottom:.1rem;
+}
+
+.news .cont .new-top strong{
+	display:block;
+	font-size:1.2rem;
+	line-height:3rem;
+	text-align:center;
+	color:#ffaea2;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+.news .cont .new-top p{
+	font-size:1rem;
+	line-height:2rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp:3;
+	overflow: hidden;
+}
+
+.news .cont dl{
+	margin:.3rem auto 0;
+}
+
+.news .cont dd{
+	height:2rem;
+}
+
+.news .cont dd a{
+	display:block;
+	font-size:.9rem;
+	line-height:2rem;
+	color:#2c2c31;
+	clear:both;
+	
+}
+
+.news .cont dd a em{
+	float:right;
+	font-size:.9rem;
+	line-height:1.6rem;
+}
+
+.news .more{
+	margin:0 auto 3rem;
+	background:none;
+}
+
+.message{
+	position:relative;
+	padding-top:1rem;
+	height:30rem;
+	background:url(../images/message-bg.jpg) no-repeat;
+	background-size:100% 13rem;
+}
+
+.message form{
+	display:block;
+	margin:1rem auto;
+	width:96%;
+	height:22rem;
+	background:#fff;
+	border-radius:.3rem;
+	text-align:center;
+}
+
+.message form ul{
+	margin:0 auto;
+	padding-top:.58rem;
+	width:60%;
+}
+
+.message form li{
+	margin-bottom:.4rem;
+	font-size:1.2rem;
+	height:2rem;
+	line-height:1.8rem;
+	color:#666;
+}
+
+.message form li input{
+	width:70%;
+	font-size:1.2rem;
+	border:none;
+	border-bottom:1px solid #000;
+	outline:none;
+}
+
+.message textarea{
+	display:block;
+	margin:1rem auto 0;
+	padding:.2rem 2%;
+	width:86%;
+	height:11rem;
+	border:none;
+	background:#f0f0f0;
+	outline:none;
+	overflow:hidden;
+	resize:none;
+	border-radius:.3rem;
+	font-size:1rem;
+	line-height:1.6rem;
+}
+
+.message .submit{
+	display:inline-block;
+	border:none;
+	background:none;
+	font-size:1.4rem;
+	line-height:2rem;
+	color:#666;
+}
+
+.message .ican{
+	position:absolute;
+	bottom:0;
+	left:0;
+}
