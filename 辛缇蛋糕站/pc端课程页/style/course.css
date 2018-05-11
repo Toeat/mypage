@@ -263,6 +263,174 @@
 	background:url(../images/cus-button.jpg) no-repeat;
 }
 
+.cus-cont .qj-imgs{
+	margin:56px auto 0;
+	width:1200px;
+}
+
+.cus-cont .qj-imgs .img-box{
+	position:relative;
+	margin-bottom:20px;
+	width:1200px;
+}
+
+.cus-cont .qj-imgs .text{
+	position:absolute;
+	padding:40px;
+	width:180px;
+	height:180px;
+	text-align:left;
+	background:rgba(255, 255, 255,.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fffffff,endColorstr=#7fffffff);
+}
+
+.cus-cont .qj-imgs .line1{
+	display:block;
+	width:50px;
+	height:3px;
+	border-radius:3px;
+}
+
+.cus-cont .qj-imgs strong{
+	font-size:40px;
+	line-height:90px;
+	font-weight:400;
+}
+
+.cus-cont .qj-imgs .line2{
+	display:block;
+	width:156px;
+	height:2px;
+	border-radius:2px;
+	background:#d2d2d2;
+}
+
+.cus-cont .qj-imgs p{
+	font-size:20px;
+	line-height:48px;;
+}
+
+.cus-cont .qj-imgs .color1{
+	color:#59c3e1;
+}
+
+.cus-cont .qj-imgs .bg1{
+	background:#59c3e1;
+}
+
+.cus-cont .qj-imgs .pos1{
+	top:0;
+	left:460px;
+}
+
+.cus-cont .qj-imgs .color2{
+	color:#ce6e72;
+}
+
+.cus-cont .qj-imgs .bg2{
+	background:#ce6e72;
+}
+
+.cus-cont .qj-imgs .pos2{
+	top:0;
+	left:0;
+}
+
+.cus-cont .qj-imgs .pos3{
+	top:0;
+	left:480px;
+}
+
+.cus-cont .qj-imgs .color3{
+	color:#e06b1b;
+}
+
+.cus-cont .qj-imgs .bg3{
+	background:#e06b1b;
+}
+
+.cus-cont .qj-imgs .pos4{
+	top:0;
+	left:720px;
+}
+
+.cus-cont .qj-imgs .color4{
+	color:#b46017;
+}
+
+.cus-cont .qj-imgs .bg4{
+	background:#b46017;
+}
+
+.cus-cont .qj-imgs .pos5{
+	top:0;
+	left:220px;
+}
+
+.cus-cont .qj-imgs .color5{
+	color:#3d890c;
+}
+
+.cus-cont .qj-imgs .bg5{
+	background:#3d890c;
+}
+
+.cus-cont .qj-imgs .color6{
+	color:#eeb54c;
+}
+
+.cus-cont .qj-imgs .bg6{
+	background:#eeb54c;
+}
+
+.cus-cont .qj-imgs .color7{
+	color:#a9280b;
+}
+
+.cus-cont .qj-imgs .bg7{
+	background:#a9280b;
+}
+
+.cus-cont .qj-imgs .color8{
+	color:#976bac;
+}
+
+.cus-cont .qj-imgs .bg8{
+	background:#976bac;
+}
+
+.cus-cont .qj-imgs .color9{
+	color:#68a05b;
+}
+
+.cus-cont .qj-imgs .bg9{
+	background:#68a05b;
+}
+
+.cus-cont .qj-imgs .color9{
+	color:#42261f;
+}
+
+.cus-cont .qj-imgs .bg9{
+	background:#42261f;
+}
+
+.cus-cont .qj-imgs .color10{
+	color:#626262;
+}
+
+.cus-cont .qj-imgs .bg10{
+	background:#626262;
+}
+
+.cus-cont .qj-imgs .color11{
+	color:#6d1d13;
+}
+
+.cus-cont .qj-imgs .bg11{
+	background:#6d1d13;
+}
+
 .content .jc-bg{
 	background:#eee url(../images/jc-bg.jpg) repeat-x;
 }
