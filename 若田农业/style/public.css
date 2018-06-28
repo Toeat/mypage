@@ -33,7 +33,7 @@
 	position:relative;	
 	float:left;
 	width:181px;
-	z-index:999;
+	z-index:9999;
 }
 
 .home-nav .nav-cont{
@@ -116,8 +116,39 @@
 }
 
 .slick1 img{
+	position:relative;
 	width:100%;
 	height:694px;
+}
+
+.slick1 .slick-dots{
+	position:absolute;
+	left:0;
+	bottom:20px;
+	overflow:hidden;
+	text-align:center;
+	width:100%;
+	z-index:9999;
+}
+
+.slick1 .slick-dots li{
+	margin:0 10px;
+	display:inline;
+}
+
+.slick1 .slick-dots button{
+	width:40px;
+	height:10px;
+	border:none;
+	background:#fff;
+	color:#fff;
+	font-size:0;
+	cursor:pointer;
+	outline:none;
+}
+
+.slick1 .slick-active button{
+	background:#028867;
 }
 
 /*底部快速导航*/
@@ -126,6 +157,55 @@
 	width:100%;
 	overflow:hidden;
 	min-width:1200px;
+}
+
+.footer .navigation{
+	width:100%;
+	height:380px;
+	border-top:2px solid #747474;
+}
+
+.navigation .cont{
+	margin:0 auto;
+	padding-top:70px;
+	width:1200px;
+	height:300px;
+}
+
+.navigation .cont h3{
+	padding-bottom:12px;
+	font-size:24px;
+	color:#000;
+}
+
+.navigation .cont i{
+	margin-bottom:20px;
+	display:block;
+	width:98px;
+	height:2px;
+	background:#018867;
+}
+
+.navigation .list{
+	overflow:hidden;
+}
+
+.navigation .list li{
+	width:100%;
+	height:49px;
+	border-bottom:1px dotted #c6c6c6;
+	line-height:50px;
+	font-size:16px;
+	color:#000;
+}
+
+.navigation .list a,.navigation .list strong{
+	margin-right:16px;
+	font-weight:400;
+}
+
+.navigation .list a:hover{
+	color:#018867;
 }
 
 .footer .copyright{

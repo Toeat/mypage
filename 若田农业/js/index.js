@@ -11,6 +11,7 @@
 		speed: 600,
 		cssEase: 'linear',
 		pauseOnHover:true,
+		dots:true,
 	//	draggable:false,
 	});
 	

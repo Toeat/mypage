@@ -552,7 +552,7 @@
 	position:relative;
 	margin-top:1rem;
 	overflow:hidden;
-	height:27rem;
+	height:30rem;
 }
 
 .stage .cont .show{
@@ -564,6 +564,8 @@
 	top:0;
 	left:0;
 	display:none;
+	width:100%;
+	overflow:hidden;
 }
 
 .stage .cont img{
@@ -601,6 +603,7 @@
 .stage .cont dl{
 	clear:both;
 	padding-top:.4rem;
+	overflow:hidden;
 	overflow:hidden;
 }
 
