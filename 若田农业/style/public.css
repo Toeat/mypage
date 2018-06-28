@@ -80,7 +80,7 @@
 
 .home-nav .phone-box strong{
 	float:right;
-	font-size:26px;
+	font-size:24px;
 	color:#028867;
 }
 
@@ -92,13 +92,15 @@
 .home-nav .bot a{
 	float:left;
 	display:block;
-	margin-right:44px;
+	padding:0 10px;
+	margin-right:20px;
 	line-height:74px;
-	font-size:14px;
+	font-size:15px;
 }
 
 .home-nav .bot a:hover{
-	color:#028867;
+	color:#fff;
+	background:#028867;
 }
 
 .home-nav .bot .active{
@@ -243,6 +245,8 @@
 .copyright .ewm img{
 	display:block;
 	float:left;	
+	width:122px;
+	height:122px;
 }
 
 .copyright .ewm p{
