@@ -1197,14 +1197,14 @@
 	height:600px;
 }
 
-.news .cont .left{
-	float: left;
-	margin-left:8px;
-	width:604px;
-	height:600px;
+.news .cont .top,
+.news .cont .bot{
+	overflow:hidden;	
 }
 
-.news .left .l-top{
+.news .l-top{
+	position:relative;
+	float:left;
 	margin-bottom:46px;
 	width:604px;	
 	height:410px;
@@ -1265,12 +1265,13 @@
 	color:#018867;
 }
 
-.news .left .l-bot{
+.news .l-bot{
+	float:left;
 	width:600px;
 	height:144px;
 }
 
-.news .left .l-bot-l{
+.news .l-bot-l{
 	float:left;
 	width:150px;
 	height:144px;
@@ -1289,7 +1290,7 @@
 	color:#999;
 }
 
-.news .left .l-bot-r{
+.news .l-bot-r{
 	float:left;
 	width:450px;
 	height:144px;
@@ -1321,13 +1322,8 @@
 	line-height:24px;	
 }
 
-.news .cont .right{
-	float: right;
-	width:530px;
-	height:600px;
-}
-
-.news .right .r-top{
+.news .r-top{
+	float:right;
 	overflow:hidden;
 	width:530px;
 	height:370px;
@@ -1429,7 +1425,8 @@
 }
 
 .news .r-bot{
-	margin-top:90px;
+	float:right;
+	margin-top:20px;
 	width:530px;
 	height:92px;
 }
