@@ -1,0 +1,184 @@
+body{
+	font-family:"SimSun","Microsoft Yahei";
+}
+
+/*调用样式*/
+.box{
+	margin:0 auto;
+	width:1200px;	
+}
+
+/*头部样式*/
+.header{
+	margin:0 auto;
+	width:100%;
+}
+
+.header .nav{
+	width:100%;
+	height:38px;
+	background:#f9f9f9;
+}
+
+.header .nav p{
+	float:left;
+	display:block;
+	font-size:14px;
+	line-height:38px;
+	color:#000;
+}
+
+.header .nav .link{
+	float:right;
+	display:block;
+	height:38px;
+}
+
+.header .nav a{
+	float:left;
+	display:block;
+	margin-left:14px;
+	line-height:38px;
+	font-size:13px;
+}
+
+.header .nav i{
+	float:right;
+	display: block;
+	padding-left:12px;
+	font-size:13px;
+}
+
+.header .menu{
+	position:relative;
+	height:86px;
+}
+
+.header .menu .link{
+	float:right;
+}
+
+.header .menu a{
+	float:left;
+	display:block;
+	line-height:80px;
+	font-size:14px;
+	color:#000;
+}
+
+.header .menu a:hover{
+	border-bottom:6px solid #dfbd6e;	
+}
+
+.header .menu i{
+	float:left;
+	display:block;
+	width:1px;
+	height:10px;
+	background:#d3d3d3;
+	margin:36px 22px 0;
+}
+
+.header .banner{
+	position:relative;
+	width:100%;
+	height:680px;
+}
+	
+.header .banner .cont{
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:680px;
+}
+
+.header .banner .bg{
+	display:block;
+	width:100%;
+	height:680px;
+}
+
+.header .banner .text{
+	position:absolute;
+	top:0;;
+	left:0;
+	width:100%;
+	height:384px;
+	color:#fff;
+}
+
+.header .banner .box{
+	margin-top:118px;
+}
+
+.header .text img{
+	margin-bottom:46px;
+	display:block;
+}
+
+.header .text strong{
+	font-weight:400;
+	font-size:56px;
+	letter-spacing:4px;
+}
+
+.header .text p{
+	margin:26px 0 40px;
+	font-size:34px;
+}
+
+.header .text a{
+	display:block;
+	width:214px;
+	height:56px;
+	line-height:56px;
+	text-align:center;
+	font-size:16px;
+	font-weight:700;
+	color:#fff;
+	border:1px solid #fff;
+}
+	
+.header .text span{
+	display:block;
+	height:24px;
+	margin-top:28px;
+	font-size:24px;
+	line-height:24px;
+	text-indent:30px;
+	color:#dfbd6e;
+	background:url(../images/banner-ican2.png) no-repeat;
+	background-size:contain;
+}
+
+.header .ican-con{
+	position:absolute;
+	left:0;
+	bottom:52px;
+	width:100%;
+	color:#fff;
+}
+
+.header .ican-con p{
+	float:left;
+	font-size:30px;	
+	width:70px;
+}
+
+.header .ican-con .radius{
+	float:right;
+}
+
+.header .ican-con i{
+	float:left;
+	display:block;
+	margin:14px 0 0 10px;
+	width:11px;
+	height:11px;
+	background:url(../images/banner-ican4.png) no-repeat;
+}
+
+.header .ican-con .active{
+	background:url(../images/banner-ican3.png) no-repeat;
+}
