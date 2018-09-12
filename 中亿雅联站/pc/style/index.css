@@ -1,0 +1,357 @@
+.content{
+	width:100%;
+}
+
+/*数字样式*/
+.number{
+	width:100%;
+	height:206px;
+	background:#f5f5f5;
+}
+
+.number ul{
+	height:206px;
+}
+
+.number ul li{
+	float:left;
+	overflow:hidden;
+}
+
+.number ul .fl{
+	float:left;
+	width:214px;
+	height:206px;
+}
+
+.number ul .white{
+	margin-left:104px;
+	background:#fff;
+}
+
+.number ul .white .fl{
+	width:244px;
+	height:200px;
+	border-bottom:6px solid #000;
+}
+
+.number ul img{
+	display:block;
+	height:124px;
+	margin:40px auto 0;	
+}
+
+.number ul p{
+	margin-top:-40px;
+	text-align:center;
+	font-size:16px;
+	color:#333;
+}
+
+.number ul .fr{
+	float:left;
+	margin-top:106px;
+	width:104px;
+	height:1px;
+	background:#dedede;
+}
+
+/*解决方案*/
+.solve{
+	margin-top:108px;
+}
+
+.solve .top{
+	height:78px;
+}
+
+.solve .top h2{
+	height:78px;
+	font-size:34px;
+	color:#24292b;
+	background:url(../images/solve-logo-txt.jpg) no-repeat left bottom;
+}
+
+.solve .top span{
+	padding-left:22px;
+	font-weight:400;
+}
+
+.solve .top .menu{
+	margin-top:16px;
+	border-bottom:1px solid #999280;
+}
+
+.solve .top li{
+	float:left;
+	margin-right:45px;
+	color:#666;
+}
+
+.solve .top a{
+	display:block;
+	font-size:16px;
+	line-height:50px;
+}
+
+.solve .top .active a{
+	margin-bottom:-1px;
+	color:#000;
+	line-height:50px;
+	border-bottom:4px solid #dfbd6e;	
+}
+
+.solve .top .last{
+	margin-right:0;
+}
+
+.solve .top .last a{
+	width:22px;
+	height:50px;
+	background:url(../images/solve-ican1.jpg) no-repeat center center;
+	background-size:auto;
+}
+
+.solve .mid{
+	margin-top:88px;
+	width:100%;
+	height:662px;
+	background:url(../images/solve-bg.jpg) no-repeat 0 51px;
+	background-size:100% 611px;
+}
+
+.solve .mid .box{
+	position:relative;
+	height:662px;	
+}
+
+.solve .mid .box .num-tit{
+	position:absolute;
+	top:-60px;
+	right:-48px;
+	width:34px;
+	height:154px;
+}
+
+.solve .mid .con{
+	position:relative;
+	width:944px;
+	height:488px;
+	background:#24292b url(../images/solve-bg-txt.jpg) no-repeat 426px 54px;	
+}
+
+.solve .mid .txt{
+	padding:74px 0 0 40px;
+	width:418px;
+	color:#fff;
+}
+
+.solve .mid li{
+	display:none;
+}
+
+.solve .mid .show{
+	display:block;
+}
+
+.solve .mid strong{
+	font-size: 36px;
+}
+
+.solve .mid i{
+	margin:25px 0;
+	display:block;
+	width:40px;
+	height:4px;
+	background:#ccc;
+}
+
+.solve .mid p{
+	padding-bottom:10px;
+	font-size:16px;
+}
+
+.solve .mid span{
+	font-size:15px;
+	line-height:24px;
+	color:#959595;
+}
+
+.solve .mid .link{
+	margin-top:20px;
+	width:394px;
+	height:42px;
+}
+
+.solve .mid .link a,
+.btn{
+	float:left;
+	display:block;
+	margin-right:12px;
+	width:180px;
+	height:40px;
+	text-align: center;
+	line-height:42px;
+	font-size:16px;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:20px;
+}
+
+.solve .mid .link .color{
+	border:1px solid #dfbd6e;
+	color:#dfbd6e;
+}
+
+.solve .mid .imgs{
+	position:absolute;
+	bottom:-70px;
+	left:40px;
+	width:598px;
+	height:210px;
+}
+
+.solve .mid .imgs .mr-0{
+	margin-right:0;	
+}
+
+.solve .mid .imgs img{
+	display:block;
+	float:left;
+	margin-right:35px;
+	width:176px;
+	height:210px;	
+}
+
+.solve .mid .show-img{
+	position:absolute;
+	right:-255px;
+	bottom: -70px;
+	display:block;
+	width:470px;
+	height:410px;
+}
+
+.solve .mid .more{
+	float:right;
+	
+	margin:108px 4px 0 0;
+	width: 166px;
+	height:15px;
+	font-size:16px;
+	background:url(../images/solve-more-arrow.png) no-repeat bottom right;
+	color:#666;
+}
+
+.service{
+	width:100%;
+	height:490px;
+}
+
+.service .box{
+	margin-top:110px;
+	height:280px;
+}
+
+.service .box .mr-0{
+	margin-right: 0;
+	width:171px;
+	padding:0 17px;
+}
+
+.service .box li{
+	float:left;
+	margin-right:42px;
+	width:202px;
+	height:278px;
+} 
+
+.service .box .bor{
+	width:185px;
+	padding:0 17px;
+	border:1px solid #ececec;
+}
+
+.service .bor i{
+	display:block;
+	margin:26px 0 0 -24px;
+	width:169px;
+	height:25px;
+	background:#dfbd6e;
+}
+
+.service li p{
+	margin:34px 0 10px 0;
+	font-size:18px;
+	color:#000;
+}
+
+.service li span{
+	font-size:13px;
+	line-height:20px;
+	color:#666;
+}
+
+.service .bor img{
+	margin-top:50px;
+	display:block;
+	float:right;
+	width:60px;
+	height:47px;
+}
+
+.service .cla .bor-t{
+	position:relative;
+	margin-bottom:34px;
+	width:100%;
+	height:1px;
+	background:#a8b1b0;
+}
+
+.service .bor-t i{
+	display:block;
+	margin:0 auto;
+	width:33px;
+	height:1px;
+	background:#dfbd6e;
+}
+
+.service .cla img{
+	display:block;
+	width:100%;
+	height:83px;
+}
+
+.service .cla p{
+	margin-top:60px;
+}
+
+
+.service .mr-0 strong{
+	font-size:42px;
+	color:#000;
+}
+
+.service .mr-0 strong span{
+	font-size:42px;
+	font-weight:400;
+	color:#000;
+}
+
+.service .mr-0 p{
+	font-size:16px;
+	color:#b9b9b9;
+}
+
+.service .mr-0 .btn{
+	margin-top:36px;
+	color:#dfbd6e;
+	border-color:#000;
+}
+
+.procedure{
+	width:100%;
+	height: 328px;
+	background:url(../images/procedure-bg.jpg) no-repeat;
+	background-size:100% 100%;
+}
