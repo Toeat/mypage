@@ -205,3 +205,178 @@ body{
 	width:218px;
 	height:108px;
 }
+
+/*底部样式*/
+.footer{
+	width:100%;
+	overflow:hidden;
+}
+.footer .cont{
+	padding-top:56px;
+	width:100%;
+	height:336px;
+	background: #24292b;
+}
+
+.footer .cont .box{
+	height:289px;
+}
+
+.footer .cont .box li{
+	float:left;
+	height:289px;
+	border-right:1px solid #5d6464;
+}
+
+.footer .cont .box strong{
+	font-size: 16px;
+	color:#fff;
+	font-weight:400;
+}
+
+.footer .cont strong p{
+	margin-top:0;
+	font-size: 12px;
+	line-height: 30px;	
+}
+
+.footer .cont .contact{
+	width:190px;
+}
+
+.footer .cont .link{
+	margin-top:30px;
+	width:56px;
+	font-size: 14px;
+	line-height:30px;
+	color: #666;
+}
+
+.footer .cont .link a:hover{
+	color:#dfbd6e;	
+}
+
+.footer .cont .address{
+	padding:0 40px;
+	width:317px;
+}
+
+.footer .cont .address .style1{
+	margin-top:30px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #666;
+}
+
+.footer .cont .ewm{
+	padding:0 52px;
+	width:153px;
+}
+
+.footer .cont .ewm .bg{
+	width:153px;
+	height:224px;
+	background: #515656;
+	text-align:center;
+}
+
+.footer .cont .ewm span{
+	display:block;
+	color: #c4c4c4;
+}
+
+.footer .cont .ewm .t{
+	line-height:50px;
+	font-size: 20px;
+}
+
+.footer .cont .ewm .b{
+	font-size: 12px;
+}
+
+.footer .cont .ewm i{
+	margin:12px auto 9px;
+	display:block;
+	width: 46px;
+	height: 1px;
+	background-color: #6d6d6d;
+}
+
+.footer .cont .ewm img{
+	width:101px;
+	height:104px;
+}
+
+.footer .cont .box .logo{
+	padding-left:80px;
+	width:272px;
+	border-right:none;
+}
+
+.footer .logo .bor{
+	width:270px;
+	height:224px;
+	border: solid 1px #3c3f3f;
+}
+
+.footer .logo img{
+	margin:33px auto 27px;
+	display:block;
+	width: 198px;
+	height: 63px;
+}
+
+.footer .logo .h-bg{
+	margin:0 auto;
+	display:block;
+	width: 216px;
+	height: 74px;
+}
+
+.footer .b-link{
+	height: 60px;
+	background: #171b1d;
+	border-bottom:1px solid #dfbd6e;
+}
+
+.footer .b-link .box{
+	height:60px;	
+}
+
+.footer .b-link strong{
+	float:left;
+	width:112px;
+	height:60px;
+	line-height:60px;	
+	font-size: 16px;
+	color: #dfbd6e;
+}
+
+.footer .b-link strong span{
+	padding:0 0 0 4px;
+	font-size: 12px;
+	line-height:64px;
+}
+
+.footer .b-link .list-link{
+	float:left;
+	margin-left:39px;
+	width:972px;
+	height:60px;
+	line-height:60px;
+}
+
+.footer .b-link .list-link a{
+	color: #5e5e5e;
+	margin-right:36px;
+}
+
+.footer .b-link .list-link a:hover{
+	color: #dfbd6e;
+}
+
+.footer .b-link .fr{
+	margin-top:22px;
+	width:17px;
+	height:17px;
+}

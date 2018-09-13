@@ -9,5 +9,13 @@
 		$('.product .box .num-tit').css('display','block');
 	}
 	
+	timer1 = null;
+	timer1 = setInterval(function(){
+		if($(window).width() < 1500){
+			$('.header .logo').css('background','url(images/head-logo2.jpg) no-repeat');
+		}else{
+			$('.header .logo').css('background','url(images/head-logo.jpg) no-repeat');
+		}
+	},100);
 })();
 

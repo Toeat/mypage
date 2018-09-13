@@ -725,7 +725,7 @@
 	width:100%;
 	height:298px;
 	background:url(../images/scroll-bg.jpg) no-repeat;
-	background-size:100%;
+	background-size:100% 100%;
 }
 
 .scroll .box{
@@ -774,7 +774,7 @@
 
 .caselist .tit i{
 	display:block;
-	margin:27px auto;
+	margin:20px auto;
 	width:34px;
 	height:3px;
 	background:#000;
@@ -785,3 +785,408 @@
 	letter-spacing: 2px;
 	color: #000;
 }
+
+.caselist .cont{
+	position:relative;
+	margin:174px auto 0;
+	width: 796px;
+	height: 239px;
+	border: solid 5px #dfbd6e;
+}
+
+.caselist .cont .btn{
+	position:absolute;
+	top:100px;
+	width:37px;
+	height:37px;
+	cursor:pointer;
+}
+
+.caselist .cont .btnl{
+	left:-80px;
+}
+
+.caselist .cont .btnr{
+	right:-80px;
+}
+
+.caselist .cont .text{
+	display:none;
+	position:absolute;
+	left:85px;
+	width:616px;
+	height: 220px;
+	text-align:center;
+}
+
+.caselist .cont .show{
+	display:block;
+}
+
+.caselist .text img{
+	display:block;
+	margin:-110px auto 30px;
+	width: 180px;
+	height: 180px;
+}
+
+.caselist .text h3{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #010101;
+}
+
+
+.caselist .text span{
+	font-size: 14px;
+	line-height: 24px;
+	color: #999;
+}
+
+
+.caselist .text p{
+	width:616px;
+	height:70px;
+	overflow:hidden;
+	text-align:left;
+	font-size: 14px;
+	line-height: 24px;
+	color: #666;
+}
+
+.abous{
+	width: 100%;
+	height:538px;
+	background:#24292b url(../images/abous-bg.jpg) no-repeat;
+	background-size:58.2% 100%;
+}
+
+.abous .box{
+	height:538px;
+}
+
+.abous .box .fl{
+	margin:193px 0 0 20px;
+	padding:26px 21px 0;
+	width:248px;
+	height:312px;
+	border-top:8px solid #dfbd6e;
+	background:#fff;
+	color:#000;
+}
+
+.abous .fl h3{
+	font-size: 30px;
+	line-height:30px;
+	color: #010101;
+}
+
+.abous .fl p{
+	font-size: 16px;
+	line-height:37px;
+}
+
+.abous .fl ul{
+	margin-top:20px;
+}
+
+.abous .fl li{
+	margin-bottom:10px;
+	padding-left: 50px;
+	width: 198px;
+	height: 42px;
+	border:1px solid #e5e5e5;
+}
+
+.abous .fl .bg1{
+	background:url(../images/abous-ican1.jpg) no-repeat 15px center;
+}
+
+.abous .fl .bg2{
+	background:url(../images/abous-ican2.jpg) no-repeat 15px center;
+}
+
+
+.abous .fl .bg3{
+	background:url(../images/abous-ican3.jpg) no-repeat 15px center;
+}
+
+
+.abous .fl input{
+	display:block;
+	padding-left:10px;
+	border:none;
+	border-left:1px solid #e5e5e5;
+	width: 187px;
+	height: 42px;
+	font-size: 14px;
+	color:#cecece;
+}
+
+.abous .fl .btn-box{
+	margin-top:16px;
+	width:100%;
+	height:36px;
+}
+
+.abous .fl .btn-box input{
+	display:block;
+	width: 120px;
+	height: 36px;
+	padding:0;
+	border-radius:18px;
+	font-size: 16px;
+}
+
+.abous .btn-box .btnl{
+	float:left;
+	background: #dfbd6e;
+	color:#fff;
+}
+
+.abous .btn-box .btnr{
+	float:right;
+	border:1px solid #dfbd6e;
+	background:none;
+	color:#dfbd6e;
+}
+
+.abous .box .fr{
+	padding-left:20px;
+	width:424px;
+	height:538px;
+	background:#24292b;	
+}
+
+.abous .fr h3{
+	margin-top:64px;
+	padding-left: 66px;
+	height:83px;
+	background:url(../images/abous-tit.jpg) no-repeat;
+	background-size:161px 83px;
+	font-size: 30px;
+	line-height: 50px;
+	font-weight:400;
+	color: #ffffff;
+}
+
+.abous .fr p{
+	margin-top:30px;
+	width:348px;
+	font-size: 14px;
+	line-height: 28px;
+	color: #8e9091;
+}
+
+.abous .fr a{
+	margin-top:46px;
+	padding:0 20px;
+}
+
+.news{
+	padding-top:100px;
+	width: 100%;
+	height:720px;
+}
+
+.news .cont{
+	height:478px;
+}
+
+.news .cont .fl{
+	width:760px;
+	height:478px;
+	
+}
+
+.news .cont h2{
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #010101;
+}
+
+.news .fl ul{
+	margin-top:54px;
+	width:100%;
+	height:398px;
+}
+
+.news .fl li{
+	float:left;
+	width: 337px;
+	height: 172px;
+	margin:0 86px 54px 0;
+}
+
+.news .fl .mr-0{
+	margin-right:0;
+}
+
+.news .fl i{
+	display:block;
+	margin-bottom:40px;
+	width: 12px;
+	height: 3px;
+	background-color: #dfbd6e;
+}
+
+.news .fl a{
+	display:block;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #333;
+}
+
+.news .fl a p{
+	margin-top:10px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #666666
+}
+
+.news .fl .active a{
+	color:#dfbd6e;
+}
+
+.news .fl span{
+	display:block;
+	padding-top:14px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #999999;
+}
+
+.news .cont .fr{
+	margin-top:12px;
+	width:360px;
+	height:444px;
+}
+
+.news .fr .menu{
+	margin:0 auto 50px;
+	width: 345px;
+	height: 15px;
+	font-size: 16px;
+	color: #010101;
+}
+
+.news .menu dd,
+.news .menu dt{
+	float:left;
+}
+
+.news .menu dt{
+	width: 66px;
+	cursor:pointer;
+}
+
+.news .menu dd{
+	width:72px;
+	text-align:center;
+}
+
+.news .fr .list{
+	position:relative;
+	width:360px;
+	height:400px;
+	overflow:hidden;
+}
+
+.news .list ul{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1080px;
+	height:400px;
+}
+
+.news .list li{
+	float:left;
+	width:360px;
+	height:400px;
+}
+
+
+.news .list a{
+	display: block;
+	width:100%;
+	height:67px;
+	font-size: 16px;
+	color: #333333;
+	background:url(../images/news-arrow1.jpg) no-repeat 305px 23px;
+	background-size:21px 21px;
+}
+
+.news .list i{
+	float:left;
+	margin:32px 12px 0 24px;
+	display:block;
+	width:4px;
+	height:4px;
+	border-radius:2px;
+	background:#000;
+}
+
+.news .list p{
+	padding-top:24px;
+	width:260px;
+	height:18px;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    white-space:nowrap;
+}
+
+.news .list .active{
+	background:#000 url(../images/news-arrow2.png) no-repeat 305px 23px;
+	color:#fff;
+}
+
+.news .list .active i{
+	background:#fff;
+}
+
+.news .bot{
+	margin-top:60px;
+	height:129px;
+}
+
+.news .bot a{
+	float:left;
+	display:block;
+	margin-right:10px;
+	width:232px;
+	height:129px;
+	background-size:100% 100%;
+	text-align:center;
+	font-size: 16px;
+	line-height:150px;
+	color: #ffffff;
+	
+}
+
+.news .bot .bg1{
+	color: #dfbd6e;
+	background:url(../images/news-bot1.jpg) no-repeat;
+}
+
+.news .bot .bg2{
+	background:url(../images/news-bot2.jpg) no-repeat;
+}
+
+.news .bot .bg3{
+	background:url(../images/news-bot3.jpg) no-repeat;
+}
+
+.news .bot .bg4{
+	background:url(../images/news-bot4.jpg) no-repeat;
+}
+
+.news .bot .bg5{
+	margin-right:0;
+	background:url(../images/news-bot5.jpg) no-repeat;
+}
+/**/
