@@ -274,7 +274,7 @@
 
 .service .bor i{
 	display:block;
-	margin:26px 0 0 -24px;
+	margin:26px 0 0 -18px;
 	width:169px;
 	height:25px;
 	background:#dfbd6e;
@@ -350,8 +350,438 @@
 }
 
 .procedure{
+	padding-top:80px;
 	width:100%;
-	height: 328px;
+	height: 244px;
 	background:url(../images/procedure-bg.jpg) no-repeat;
 	background-size:100% 100%;
+}
+
+.procedure .box{
+	position:relative;
+	height:167px;
+}
+
+.procedure .box .num-tit{
+	position:absolute;
+	top:-167px;	
+	left:-46px;
+	width: 38px;
+	height: 146px;
+}
+
+.procedure .box .fl{
+	width: 324px;
+	height: 167px;
+}
+
+.procedure .fl h3{
+	font-size: 26px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.procedure .fl p{
+	margin-top:12px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #666;
+}
+
+.procedure .fl span{
+	margin-top:12px;
+	display:block;
+	font-size: 30px;
+	line-height: 24px;
+	color: #dfbd6e;
+}
+
+.procedure .fl .btn{
+	margin-top:34px;
+}
+
+.procedure .fr{
+	margin-top:24px;
+	width:738px;
+	height:130px;
+}
+
+.procedure .fr li{
+	float:left;
+	margin-right:13px;
+	width: 136px;
+	height: 130px;
+	border-right:1px solid #949494;
+}
+
+.procedure .fr .r-0{
+	margin:0;
+}
+
+.procedure .fr p{
+	font-size: 16px;
+	line-height:24px;
+	color: #fff;
+}
+
+.procedure .fr img{
+	display:block;
+	margin-top:62px;
+	width:7px;
+	height:11px;
+}
+
+.product{
+	width:100%;
+	height:1544px;
+}
+
+.product .top{
+	position:relative;
+	margin-top:100px;
+	height:890px;
+}
+
+.product .top .r .num-tit{
+	position:absolute;
+	top:-46px;
+	right:-53px;
+	display:block;
+	width:37px;
+	height:195px;
+}
+
+.product .top li{
+	float:left;
+	margin-right:18px;
+	height:890px;
+}
+
+.product .top .mr-0{
+	margin:0;
+}
+
+.product .top .l{
+	width: 488px;
+}
+
+.product .top .c{
+	width: 387px;
+}
+
+.product .top .r{
+	width: 289px;
+}
+
+.product .top .l img{
+	margin-bottom:16px;
+	height:285px;
+}
+
+.product .top .txt{
+	height:278px;
+	border-bottom:7px solid #eaeaea;
+	margin-bottom:16px;
+}
+
+.product .top h2{
+	font-size: 50px;
+	font-weight: normal;
+	line-height:44px;
+	color: #000000;
+}
+
+.product .top i{
+	display:block;
+	margin:28px 0;
+	width: 34px;
+	height: 3px;
+	background: #dfbd6e;
+}
+
+.product .top p{
+	font-size: 26px;
+	line-height: 36px;
+	color: #333;
+}
+
+.product .top span{
+	margin-top:41px;
+	display:block;
+	width:382px;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight:700;
+	color: #999999;
+}
+
+.product .top .l img{
+	display:block;
+	width: 488px;
+}
+
+.product .top .l .mr-0{
+	height:287px;
+}
+
+.product .top .c img,
+.product .top .r img{
+	display:block;
+	width:100%;
+	margin-bottom:16px;
+}
+
+.product .top .r img{
+	margin-bottom:16px;
+}
+
+.product .line{
+	margin:85px auto 68px;
+	width:1186px;
+	height:6px;
+	border-left:7px solid #b5b5b5;
+	border-right:7px solid #b5b5b5;
+	border-bottom:1px dotted #b5b5b5;
+}
+
+.product .bot{
+	height:304px;
+}
+
+.product .bot .tit{
+	text-align:center;
+	height:108px;
+}
+
+.product .tit h2{
+	font-size: 42px;
+	font-weight: normal;
+	line-height: 40px;
+	color: #2a2a2a;
+}
+
+.product .tit i{
+	margin:17px auto 19px;
+	display:block;
+	width: 34px;
+	height: 3px;
+	background: #dfbd6e;
+}
+
+.product .tit img{
+	display:block;
+	margin:0 auto;
+	width: 401px;
+	height: 28px;
+}
+
+.product .list{
+	margin:38px auto 0;
+	width:1176px;
+	height:158px;
+}
+
+.product .list li{
+	float:left;
+	padding-left:46px;
+	width:142px;
+	height:158px;
+	border-left:1px solid #ececec;
+}
+
+.product .list img{
+	display: block;
+	margin:40px 0 9px;
+	height:28px;
+}
+
+.product .list p{
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 36px;
+	color: #333333;
+}
+
+.product .list span{
+	font-size: 12px;
+	color: #bcbcbc;
+}
+
+.product .list .last{
+	width:157px;
+	border-right:1px solid #ececec;
+}
+
+.product .last p{
+	font-size: 18px;
+	font-weight:700;
+	letter-spacing: 2px;
+	color: #dfbd6e;
+}
+
+.advantage{
+	width:100%;
+	height:1724px;
+}
+
+.advantage .tit{
+	width:100%;
+	height:256px;
+	background:#24292b;
+}
+
+.advantage .box{
+	overflow:hidden;
+}
+
+.advantage .tit .fr{
+	margin-top:116px;
+	width:714px;
+	height:94px;
+	background:url(../images/advantage-tit.jpg) no-repeat 146px 62px;
+}
+
+.advantage .tit i{
+	float:left;
+	margin:71px 17px 0 0;
+	display:block;
+	width: 128px;
+	height: 1px;
+	background: #66696b;
+}
+
+.advantage .tit h2{
+	float:left;
+	display:block;
+	width:562px;
+	font-size: 50px;
+	color: #ffffff;
+	font-weight:400;
+}
+
+.advantage .tit span{
+	color: #dfbd6e;
+}
+
+.advantage .tit p{
+	display:inline;
+	padding-left:8px;
+	font-size: 26px;
+	font-weight:400;
+}
+
+.advantage .cont{
+	margin-top:-200px;
+	height:1558px;
+}
+
+.advantage .cont .mr-b{
+	margin-bottom:20px;
+}
+
+.advantage .cont .box1{
+	height:530px;
+}
+
+.advantage .cont .height{
+	height:283px;
+}
+
+.advantage .cont .height2{
+	height:344px;
+}
+
+.advantage .cont .show-img{
+	display:block;	
+}
+
+.advantage .box1 .txt{
+	margin:285px 0 0 46px;
+	height:154px;
+}
+
+.advantage .box1 strong{
+	display:block;
+	margin-left:48px;
+	font-size: 36px;
+	font-weight: 400;
+	color: #111111;
+}
+
+.advantage .box1 p{
+	margin-top:30px;
+	width:415px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #666;
+}
+
+.advantage .box1 .style1{
+	margin:88px auto 0;
+}
+
+.scroll{
+	width:100%;
+	height:298px;
+	background:url(../images/scroll-bg.jpg) no-repeat;
+	background-size:100%;
+}
+
+.scroll .box{
+	padding-top:62px;
+	height:174px;
+}
+
+.scroll .box img{
+	display:block;
+	margin:0 auto;
+	width:161px;
+	height:51px;
+}
+
+.scroll .box h3{
+	text-align:center;
+	font-size: 32px;
+	font-weight:400;
+	line-height:82px;
+	letter-spacing: 3px;
+	color: #ffffff;
+}
+
+.scroll .box a{
+	float:none;
+	margin:0 auto;
+}
+
+.caselist{
+	width:100%;
+	height:758px;
+	background:url(../images/caselist-bg.jpg) no-repeat  0px 206px;
+}
+
+.caselist .tit{
+	margin-top:108px;
+	height:127px;
+	text-align:center;
+}
+
+.caselist .tit h2{
+	font-size: 50px;
+	font-weight: 400;
+	color: #1f1e1f;
+}
+
+.caselist .tit i{
+	display:block;
+	margin:27px auto;
+	width:34px;
+	height:3px;
+	background:#000;
+}
+
+.caselist .tit p{
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #000;
 }
