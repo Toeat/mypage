@@ -1,0 +1,372 @@
+.content{
+	width:100%;
+}
+
+.btn-style{
+	display:block;
+	width:10rem;
+	height:2.4rem;
+	border:1px solid #fff;
+	border-radius:1.4rem;
+	font-size:1rem;
+	text-align:center;
+	line-height:2.4rem;
+	color:#fff;
+}
+
+.content .menu{
+	padding-bottom:4rem;
+	width:100%;
+	height:17rem;
+}
+
+.content .menu a{
+	float:left;
+	width:33%;
+	height:8.5rem;
+	border:1px solid #dcdcdc;
+	border-left:0;
+	box-sizing: border-box;
+}
+
+.content .menu a:nth-child(3n){
+	width:34%;
+	border-right:0;
+}
+
+.content .menu a:nth-child(4),
+.content .menu a:nth-child(5),
+.content .menu a:nth-child(6){
+	border-top:0;
+}
+
+.content .menu .text{
+	position:relative;
+	padding-top:.4rem;
+	margin:1.7rem auto 0;
+	width:4rem;
+	height:4.6rem;
+	text-align:center;
+}
+
+.content .menu .text i{
+	position:absolute;
+	top:0;
+	right:0;
+	width:7px;
+	height:7px;
+	border-radius:3px;
+	background: #dfbd6e;
+}
+
+.content .menu .text img{
+	display:block;
+	margin:0 auto .6rem;
+	width: 2rem;
+	height: 2rem;
+}
+
+.content .menu .text p{
+	font-size: 1rem;
+	color: #111;
+}
+
+.programme{
+	padding:4rem 0;
+	width:100%;
+	overflow:hidden;
+	background:#f5f5f5;
+	border-bottom:1px dotted #b5b5b5;
+}
+
+.programme .tit{
+	margin:0 auto;
+	width:100%;
+	height:4.8rem;
+	text-align:center;
+}
+
+.programme .tit h2{
+	padding-bottom:.4rem;
+	font-size:2rem;
+}
+
+.programme .tit img{
+	width:11rem;
+	height:1.4rem;
+}
+
+.programme .list-menu{
+	margin:2rem auto 0;
+	width:94%;
+	height:6.6rem;
+}
+
+.programme .list-menu li{
+	float:left;
+	margin:0 2% .6rem 0;
+	width:32%;
+	height:3rem;
+	background:#cecece;
+	font-size:1rem;
+	text-align:center;
+	line-height:3rem;
+	color: #3f3f3f;
+}
+
+.programme .list-menu li:nth-child(3n){
+	margin-right:0;
+}
+
+.programme .list-menu .active{
+	background:#dfbd6e;
+	color: #fff;
+	font-weight:700;
+}
+
+.programme .list-cont{
+	position:relative;
+	margin:1rem auto 0;
+	width:94%;
+	height:28rem;
+}
+
+.programme .list-cont .show{
+	display:block;	
+}
+
+.programme .list-cont li{
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+	padding:0 6%;
+	width:74%;
+	height:20rem;
+	background:#24292b;
+	color:#fff;
+	font-size:1rem;
+}
+
+.programme .list-cont strong{
+	display:block;
+	padding:1rem 0;
+	font-size:2rem;
+}
+
+.programme .list-cont i{
+	display:block;
+	margin-bottom:1rem;
+	width: 40px;
+	height: 4px;
+	background:#cccccc;
+}
+
+.programme .list-cont p{
+	margin-bottom:.4rem;
+	color: #e9e9e9;
+}
+
+.programme .list-cont span{
+	color: #959595;
+	line-height:1.6rem;
+}
+
+.programme .list-cont .btn{
+	margin:1rem 0 .4rem;
+	border-color:#dfbd6e;
+	color:#dfbd6e;
+} 
+
+.programme .list-cont img{
+	position:absolute;
+	top:14rem;
+	right:-3.5rem;
+	width:12.5rem;
+}
+
+.programme .list-cont .more{
+	position:absolute;
+	top:26rem;
+	right:-3rem;
+	display:block;
+	padding-right:3.4rem;
+	color: #666;
+	background:url(../images/programme-arrow.png) no-repeat center right;
+}
+
+.service{
+	padding:4rem 0 2rem;
+	width:100%;
+	overflow:hidden;
+	font-size:1rem;
+	color:#b9b9b9;
+}
+
+.service .tit{
+	text-align:center;
+}
+
+.service .tit h2{
+	padding-bottom:.4rem;
+	font-size:2rem;
+	color: #1f1e1f;	
+}
+
+.service .tit strong{
+	padding-left:.8rem;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+/*头部样式*/
+.header{
+	
+}
+
+.header .top{
+	position:relative;
+	width:100%;
+	height:6rem;
+}
+
+.header .top img{
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	width: 12rem;
+	height: 7rem;	
+}
+
+.header .top .txt{
+	float: right;
+	margin:1.6rem 0.8rem 0 0;
+	width: 13rem;
+	height: 4rem;
+}
+
+.header .top .l{
+	float:left;
+	padding-top:.4rem;
+	width:49%;
+	height:3.6rem;
+	border-right:1px solid #b3b3b3;
+}
+
+.header .top .l strong{
+	font-size: 1.2rem;
+	color: #dfbd6e;
+}
+
+.header .top .l p{
+	font-size:.9rem;
+	color: #24292b;
+}
+
+.header .top .r{
+	padding-left:2%;
+	float:right;
+	padding-top:.4rem;
+	width: 48%;
+	height:3.6rem;
+}
+
+.header .top .r strong{
+	font-size: 1.2rem;
+	color: #000;
+}
+
+.header .top .r p{
+	font-size: 1rem;
+	color: #24292b;
+}
+
+.header .banner{
+	width:100%;
+	height:20rem;
+}
+
+.header .banner img{
+	width:100%;
+	height:20rem;
+}
+
+.header .search{
+	padding-top:1rem;
+	display:block;
+	width:100%;
+	height:4rem;
+}
+
+.header .search .cont{
+	padding:0.5rem 5% .3rem;
+	margin:0 auto;
+	width:78%;
+	height:2.2rem;
+	background:#f2f2f2;
+	border-radius:0.2rem;
+}
+
+.header .search .text{
+	float:left;
+	display:block;
+	width:90%;
+	height:1.8rem;
+	background:none;
+	line-height:1.8rem;
+	color: #d0cfcf;
+	font-size:1.2rem;
+}
+
+.header .search .submit{
+	float:left;
+	display:block;
+	width:9%;
+	height:1.8rem;
+	background:url(../images/search-submit.png) no-repeat;
+	background-size:100% 100%;
+}
