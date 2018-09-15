@@ -1,6 +1,9 @@
 /*头部样式*/
-.header{
-	
+.header,
+.content,
+.footer{
+	margin:0 auto;
+	max-width:640px;
 }
 
 .header .top{
@@ -105,4 +108,97 @@
 	height:1.8rem;
 	background:url(../images/search-submit.png) no-repeat;
 	background-size:100% 100%;
+}
+
+.footer{
+	position:relative;
+	padding:3rem 0 5rem;
+	width:100%;
+	overflow:hidden;
+	background:#24292b;
+}
+.footer i{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:4px;
+	background:#dfbd6e;
+}
+
+.footer .cont{
+	margin:0 auto;
+	width:80%;
+	overflow:hidden;	
+}
+
+.footer .cont p{
+	padding-left:10%;
+	width:70%;
+	font-size:1rem;
+	line-height:2.4rem;
+	color:#fff;
+		
+}
+
+.footer .cont p:nth-child(1){
+	background:url(../images/footer-ican1.jpg) no-repeat 0 center;
+	background-size:1.8rem 1.6rem;
+}
+
+.footer .cont p:nth-child(2){
+	background:url(../images/footer-ican2.jpg) no-repeat 0 center;
+	background-size:1.8rem 1.6rem;
+}
+
+.footer .cont p:nth-child(3){
+	background:url(../images/footer-ican3.jpg) no-repeat 0 .4rem;
+	background-size:1.8rem 1.6rem;
+}
+
+.footer .phone{
+	position:absolute;
+	top:0;
+	right:0;
+	display:block;
+	padding-top:2px;
+	width: 6rem;
+	height: 6rem;
+	background: #dfbd6e;
+	text-align:center;
+	font-size: 1rem;
+	color:#fff;
+	border:none;
+}
+
+.footer .phone img{
+	margin:.4rem auto .4rem;
+	display:block;
+	width:50%;	
+}
+
+.footer .foot-menu{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:4.4rem;
+	background:#24292b;
+	z-index:9999;
+}
+
+.footer .foot-menu a{
+	float:left;
+	display:block;
+	width:25%;
+	height:4.4rem;
+	text-align:center;
+	color:#fff;
+	font-size:1.1rem;
+}
+
+.footer .foot-menu img{
+	display:block;
+	margin:.4rem auto;
+	width:1.8rem;
 }

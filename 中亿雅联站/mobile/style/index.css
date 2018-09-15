@@ -768,14 +768,68 @@
 	margin:0 auto;
 	padding-bottom:0;
 	width:92%;
-	height:4rem;
-	background:red;
+	height:3rem;
 }
 
 .new .menu li{
-	
+	float:left;
+	width:33%;
+	height:3rem;
+	border:2px solid #24292b;
+	box-sizing:border-box;
+	font-size:1.2rem;
+	text-align:center;
+	line-height:2.6rem;
+	color:#24292b;
+	box-shadow:none;
 }
 
+.new .menu .active{
+	background: #24292b;
+	color:#fff;
+}
+
+.new .menu li:nth-child(2){
+	width:34%;
+	border-left:none;
+	border-right:none;
+}
+
+.new .slide3{
+	margin:1rem auto;
+	padding-bottom:0;
+	width:88%;
+}
+
+.new .slide3 a{
+	display:block;
+	height:2.3rem;
+	font-size:1rem;
+	line-height:2.3rem;
+	color: #333;
+}
+
+.new .slide3 a:before{
+	content:" ";
+	margin:.8rem .8rem 0 .4rem;
+	float:left;
+	display:block;
+	width:8px;
+	height:8px;
+	border-radius:4px;
+	background:#333;
+}
+
+.new .slide3 a:after{
+	content:" ";
+	display:block;
+	margin:.3rem 0 0 0;
+	float:right;
+	width:1.5rem;
+	height:1.5rem;
+	background:url(../images/new-ican.jpg) no-repeat;
+	background-size:100% 100%;
+}
 
 
 
