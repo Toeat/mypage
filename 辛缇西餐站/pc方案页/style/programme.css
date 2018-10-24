@@ -1,0 +1,326 @@
+.program-box{
+	margin:0 auto;
+	width:1080px;
+	overflow:hidden;
+}
+
+.program-box .tit{
+	margin:0 auto;
+	width:848px;
+	height:138px;
+	color:#000;
+	text-align:center;
+}
+
+.program-box .tit .line{
+	display:block;
+	width:848px;
+	height:18px;
+	background:url(../images/programpage-tit-line.jpg) no-repeat;	
+}
+
+.program-box .tit .tit-cont{
+	padding:15px 0;
+}
+
+.program-box .tit h2{
+	font-size: 36px;
+}
+
+.program-box .tit p{
+	font-size: 24px;
+}
+
+.program-box .box1{
+	overflow:hidden;	
+}
+
+.program-box .box1 .box1-cont1{
+	margin-top:60px;
+	width:100%;
+	height: 460px;
+}
+
+.program-box .box1 .box1-cont1 .fl{
+	width: 420px;
+	height: 460px;
+	color:#000;
+}
+
+.program-box .box1 .title{
+	font-size: 36px;
+	line-height:76px;
+	border-bottom:3px solid #b5b5b5;
+}
+
+.program-box .box1 .box1-cont1 .title{
+	margin-top:50px;
+}
+
+.program-box .box1 .box1-cont1 ul{
+	margin:50px 14px 0 0;
+	float:left;
+	width:194px;
+	overflow:hidden;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.program-box .box1 .box1-cont1 .fr{
+	width: 486px;
+	height: 460px;
+	background:#e5e5e5;
+}
+
+.program-box .box1 .box1-cont1 .fr img{
+	display:block;
+	margin:30px 0 0 -140px;
+	width: 550px;
+	height: 400px;
+}
+
+.program-box .box1 .box1-cont2{
+	margin-top:62px;
+	width:100%;
+	height:670px;
+}
+
+.program-box .box1 .box1-cont2 .fl{
+	width:600px;
+	height:670px;
+}
+
+.program-box .box1 .box1-cont2 img{
+	float:left;
+}
+
+.program-box .box1 .box1-cont2 .img1{
+	margin:0 20px 20px 0;
+}
+
+.program-box .box1 .box1-cont2 .img2{
+	margin:20px 0;
+}
+
+.program-box .box1 .box1-cont2 .fr{
+	color:#000;
+}
+
+.program-box .box1 .box1-cont2 .title{
+	margin-top:180px;
+	width: 420px;
+	text-align:right;
+}
+
+.program-box .box1 .box1-cont2 ul{
+	margin-top:50px;
+}
+
+.program-box .box1 .box1-cont2 li{
+	margin-bottom:20px;
+	height:30px;
+	background:url(../images/programpage-ican1.jpg) no-repeat left center;
+	text-indent:26px;
+	font-size: 18px;
+
+}
+
+.program-box .box1 .box1-cont2 strong{
+	font-size: 24px;
+}
+
+.program-box .box2{
+	margin-top:100px;
+	overflow:hidden;
+}
+
+.program-box .box2 ul{
+	margin-top:66px;
+	overflow:hidden;
+}
+
+.program-box .box2 li{
+	float:left;
+	margin:0 20px 30px 0;
+	width:345px;
+	height:440px;
+	font-size: 18px;
+	line-height: 40px;
+	color:#000;
+}
+
+.program-box .box2 .mr-0{
+	margin:0 0 30px 0;
+}
+
+.program-box .box3{
+	margin-top:100px;
+	overflow:hidden;
+	color:#000;
+}
+
+.program-box .box3 .yscont1{
+	margin-top:100px;
+	width:100%;
+	height:394px;
+	background:url(../images/programpage-bg1.jpg) no-repeat 200px bottom;
+}
+
+.program-box .box3 .yscont1 .fl{
+	width:434px;
+}
+
+.program-box .box3 .title-l,
+.program-box .box3 .title-r{
+	margin-top:20px;
+	height:36px;
+	font-size: 36px;
+}
+
+.program-box .box3 .title-l i,
+.program-box .box3 .title-r i{
+	display:block;
+	float:left;
+	margin:20px 12px 0 0;
+	width: 150px;
+	height: 2px;
+	background:#000;
+}
+
+.program-box .box3 .title-l p{
+	float:left;
+}
+
+.program-box .box3 .txt-l{
+	margin:34px 0 0 100px;
+	font-size: 18px;
+}
+
+.program-box .box3 .txt-l p{
+	padding:0 0 12px 62px;
+}
+
+.program-box .box3 .txt-l .line{
+	padding-left:0;
+}
+
+.program-box .box3 .txt-l i{
+	display:block;
+	float:left;
+	margin:10px 12px 0 0;
+	width: 50px;
+	height: 2px;
+	background:red;
+}
+
+.program-box .box3 .num-l,
+.program-box .box3 .num-r{
+	margin:60px 0 0 70px;
+	width:78px;
+	height:80px;
+	border-left:2px solid #000;
+	line-height:80px;
+	font-size: 30px;
+	text-indent:16px;
+}
+
+
+.program-box .box3 .yscont2{
+	margin-top:48px;
+	width:100%;
+	height:350px;
+	background:url(../images/programpage-bg2.jpg) no-repeat;
+	background-position:86% 90%;
+}
+
+.program-box .box3 .yscont2 .fl{
+	
+}
+
+.program-box .box3 .yscont2 .fr{
+	width:430px;
+}
+
+.program-box .box3 .title-r{
+	width:100%;
+	float:right;
+	overflow:hidden;
+}
+
+.program-box .box3 .title-r p{
+	float:left;
+}
+
+.program-box .box3 .title-r i{
+	margin:24px 0 0 12px;
+	width:136px;
+}
+
+.program-box .box3 .txt-r{
+	margin:86px 40px 0 0;
+	font-size: 18px;
+	text-align:right;
+	clear:both;
+}
+
+.program-box .box3 .txt-r i{
+	display:block;
+	float:right;
+	margin:15px 0 0 12px;
+	width: 50px;
+	height: 2px;
+	background:red;
+}
+
+.program-box .box3 .txt-r .line{
+	padding:0 50px 0 0;
+}
+
+.program-box .box3 .txt-r p{
+	padding:0 100px 0 0;
+	line-height:30px;
+}
+
+.program-box .box3 .num-r{
+	margin:60px 70px 0 0;
+	float:right;
+	border:none;
+	border-right:2px solid #000;
+}
+
+.program-box .box3 .yscont3{
+	width:100%;
+	height:620px;
+	margin-top:80px;
+	background:url(../images/programpage-bg3.jpg) no-repeat  left 300px;
+}
+
+.program-box .box3 .yscont3 .fl{
+	margin-top:120px;	
+}
+
+.program-box .box3 .yscont3 .mr-b20{
+	margin-bottom:20px;
+}
+
+.program-box .box3 .yscont4{
+	margin-top:80px;
+	width:100%;
+	height:620px;
+	background:url(../images/programpage-bg4.jpg) no-repeat bottom right;
+}
+
+.program-box .box3 .yscont4 .fr{
+	margin-top:150px;
+}
+
+.program-box .box3 .yscont5{
+	margin-top:80px;
+	width:100%;
+	height:350px;
+	background:url(../images/programpage-bg5.jpg) no-repeat 80px 240px;
+}
+
+.program-box .box3 .yscont6{
+	margin-top:80px;
+}

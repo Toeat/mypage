@@ -938,9 +938,21 @@ a:link{
 .cont-box .cou3-hptd .fl{
 	margin-top:30px;
 	width:750px;
-	height:498px;
+	height:560px;
+	background:url(../images/cou3-hptd-bg.jpg) no-repeat left bottom;
+	background-size:100%;
+
 }
 
 .cont-box .cou3-hptd .fr{
 	width:330px;
+}
+
+.cont-box .cou3-cf .text{
+	height: 468px;
+}
+
+.cont-box .cou3-cf .fr{
+	width:739px;
+	height:570px
 }

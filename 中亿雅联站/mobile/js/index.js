@@ -48,6 +48,15 @@
   		},
 	});
 	
+	var mySwiper4 = new Swiper('.slide4', {
+		autoplay :true,
+		speed:800,
+		loop:true,
+		autoplay:{
+			disableOnInteraction: false,
+		},
+	});
+	
 	$('.programme .list-menu li').on('touchend',function(){
 		var len = $('.programme .list-menu li').length;
 		var _index = $(this).index();
