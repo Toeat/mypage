@@ -1,0 +1,287 @@
+/*公共样式*/
+@charset "utf-8";
+
+@media screen and (min-width:320px) {html { font-size:75%;}}
+@media screen and (min-width:360px) {html { font-size:83%;}}
+@media screen and (min-width:375px) {html { font-size:88%;}}
+@media screen and (min-width:393px) {html { font-size:92%;}}
+@media screen and (min-width:400px) {html { font-size:93%;}}
+@media screen and (min-width:412px) {html { font-size:94%;}}
+@media screen and (min-width:414px) {html { font-size:95%;}}
+@media screen and (min-width:480px) {html { font-size:112%;}}
+@media screen and (min-width:568px) {html { font-size:131%;}}
+@media screen and (min-width:639px) {html { font-size:150%;}}
+
+body,div,img,ol,ul,li,p,h1,h2,h3,h4,h5,h6,textarea,i,dd,dt,dl,em{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+img{
+	display:block;
+	border:0px;
+}
+
+em{
+	font-style:normal;
+} 
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+}
+
+*{
+	font-size:.3rem;
+}
+
+.w-100{
+	width:100%;
+}
+
+.w-auto{
+	margin:0 auto;
+}
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+
+.content .mg-r-0,.slide2 .images .mg-r-0{
+	margin-right:0;
+}
+
+.content .show{
+	display:block;
+}
+
+.content .w-96{
+	width:96%;
+	margin:0 auto;
+}
+
+.ov-hide{
+	overflow:hidden;
+}
+
+.content,.header,.footer{
+	max-width:720px;
+	margin:0 auto;
+}
+
+/*头部样式*/
+.header{
+	position:relative;
+	width:100%;
+	overflow:hidden;
+}
+.head-top{
+	width:100%;
+	height:5rem;
+	background:#fff!important;
+}
+
+.head-top img{
+	float:left;
+	margin-top:.8rem;
+	width:45%;
+}
+
+.menu-ican{
+	margin:1.4rem 1rem 0 0;
+	float:right;
+	width:10%;
+	height:.3rem;
+}
+
+.menu-ican dd{
+	margin-top:.4rem;
+	width:100%;
+	height:.3rem;
+	background:#594022;
+	border-radius:.2rem;
+}
+
+.menu-ican p:first-child{
+	margin-top:0;
+}
+
+.slide1 img{
+	width:100%;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	margin:0 10px;
+}
+
+.swiper-pagination-bullet{
+	width:1rem;
+	height:1rem;
+}
+
+.header-nav{
+	display:none;
+	position:absolute;
+	left:0;
+	width:160%;
+	top:5rem;
+	overflow:hidden;
+	height:5rem;
+	z-index:999;
+	background:rgba(255,255,255,.9);
+}
+
+.header-nav .active{
+	padding:0 2%;
+}
+
+.header-nav .active a{
+	border-top:3px solid #4c3111;
+	font-weight:normal;
+}
+
+.header-nav li{
+	float:left;
+	padding:3px 2.5% 0;
+	overflow:hidden;
+}
+
+.header-nav li a{
+	display:block;
+	font-size:1.2rem;
+	font-weight:bold;
+	text-align:center;
+	color:#4c3111;
+	line-height:5rem;
+	box-sizing:content-box;
+}
+
+.swiper-pagination-bullet{
+	background:#fff;
+	opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+	background:#898989;
+}
+
+.header-txt{
+	padding-bottom:.8rem;
+	width:100%;
+	overflow:hidden;
+}
+
+.header-txt li{
+	display:none;
+	margin:0 auto;
+	width:88%;
+	padding:.2rem 4%;
+	background:#ecf4f7;
+}
+
+.header-txt .active{
+	display:block;
+}
+
+.header-txt li h3{
+	font-size:2rem;
+	line-height:3rem;
+	color:#4c3111;
+	font-weight:bold;
+}
+
+.header-txt li img{
+	width:92%;
+}
+
+.header-txt li dl{
+	overflow:hidden;
+	color:#4c3111;
+	clear:both;
+}
+
+.header-txt li dd{
+	float:left;
+	font-size:1.3rem;
+	margin-right:.3rem;
+	line-height:2rem;
+}
+
+.header-txt li p{
+	font-size:1rem;
+	color:#82807e;
+}
+
+.header-txt li a{
+	display:block;
+	margin:2% auto;
+	padding:0 2.4%;
+	width:40%;
+	height:2rem;
+	font-size:1.3rem;
+	line-height:2rem;
+	text-align:center;
+	border:1px solid #898989;
+}
+
+
+/*底部样式*/
+.footer{
+	padding:.2rem 0 .4rem;
+	overflow:hidden;
+	background:#fff;
+}
+
+.footer .gotop{
+	margin:0 auto;
+	width:40%;
+	font-size:1.5rem;
+	color:#856d4a;
+	line-height:3rem;
+	text-align:center;
+	background:url(../images/arrow.jpg) no-repeat right center;
+	background-size:15%;
+}
+
+.footer .footer-code{
+	margin:0 auto;
+}
+
+.footer ul{
+	margin:0 auto;
+	padding:.3rem 0;
+	width:94%;
+}
+
+.footer ul li:nth-child(1){
+	width:45%;
+	float:left;
+}
+
+.footer ul li:nth-child(2){
+	margin-top:.35rem;
+	width:50%;
+	float:right;
+}
+
+.footer ul li:nth-child(1) img{
+	width:100%;
+}
+
+.footer ul li:nth-child(2) p{
+	font-size:.8rem;
+	color:#856d4a;
+}
