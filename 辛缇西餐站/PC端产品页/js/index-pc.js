@@ -63,7 +63,7 @@ $('.slick4').slick({
 
 Carousel.init($("#carousel"));
 $("#carousel").init();
-$("#carousel").attr('data-carousel',carouselDate);
+$("#carousel").attr('data-setting',carouselDate);
 
 $('.room').on('mouseover',function(){
 	$('.slick3,.slick4').slick('slickPause');
