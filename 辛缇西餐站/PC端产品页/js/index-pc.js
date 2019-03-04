@@ -8,7 +8,15 @@
 	num7 = 0,
 	num6 = 0,
 	carouselDate = {
-		
+		"width":840,
+		"height":506,
+		"posterWidth":300,
+		"posterHeight":506,
+		"scale":0.92,
+		"speed":500,
+		"autoPlay":true,
+		"delay":3000,
+		"verticalAlign":"middle"		
 	};
 
 $('.slick1').slick({
@@ -55,17 +63,7 @@ $('.slick4').slick({
 
 Carousel.init($("#carousel"));
 $("#carousel").init();
-$("#carousel").attr('data-setting','{
-	"width":840,
-	"height":506,
-	"posterWidth":300,
-	"posterHeight":506,
-	"scale":0.92,
-	"speed":500,
-	"autoPlay":true,
-	"delay":3000,
-	"verticalAlign":"middle"
-}');
+$("#carousel").attr('data-setting',carouselDate);
 
 $('.room').on('mouseover',function(){
 	$('.slick3,.slick4').slick('slickPause');
