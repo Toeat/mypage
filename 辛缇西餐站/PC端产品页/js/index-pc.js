@@ -6,7 +6,10 @@
 	num4 = 0,
 	num5 = 0,
 	num7 = 0,
-	num6 = 0;
+	num6 = 0,
+	carouselDate = {
+		
+	};
 
 $('.slick1').slick({
 	autoplay:true,
@@ -52,6 +55,17 @@ $('.slick4').slick({
 
 Carousel.init($("#carousel"));
 $("#carousel").init();
+$("#carousel").attr('data-setting','{
+	"width":840,
+	"height":506,
+	"posterWidth":300,
+	"posterHeight":506,
+	"scale":0.92,
+	"speed":500,
+	"autoPlay":true,
+	"delay":3000,
+	"verticalAlign":"middle"
+}');
 
 $('.room').on('mouseover',function(){
 	$('.slick3,.slick4').slick('slickPause');
