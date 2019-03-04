@@ -7,7 +7,7 @@
 	num5 = 0,
 	num7 = 0,
 	num6 = 0,
-	carouselDate = {
+	carouselDate1 = {
 		"width":840,
 		"height":506,
 		"posterWidth":300,
@@ -17,7 +17,18 @@
 		"autoPlay":true,
 		"delay":3000,
 		"verticalAlign":"middle"		
-	};
+	},
+	carouselDate2 = {
+		"width":720,
+		"height":360,
+		"posterWidth":230,
+		"posterHeight":360,
+		"scale":0.84,
+		"speed":500,
+		"autoPlay":true,
+		"delay":3000,
+		"verticalAlign":"middle"
+         };
 
 $('.slick1').slick({
 	autoplay:true,
@@ -60,7 +71,10 @@ $('.slick4').slick({
 	draggable:false,
 });
 
-$("#carousel").attr('data-setting',carouselDate);
+carouselDate1 = JSON.stringify(carouselDate1);
+carouselDate2 = JSON.stringify(carouselDate2);
+$(".carousel1").attr('data-setting',carouselDate1);
+$(".carousel2").attr('data-setting',carouselDate2);
 Carousel.init($("#carousel"));
 $("#carousel").init();
 
