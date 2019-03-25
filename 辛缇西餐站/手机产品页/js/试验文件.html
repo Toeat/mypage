@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>复制</title>
+<style type="text/css">
+.lazy{
+	display: block;
+}
+
+.class1{
+	color:red;
+}
+
+.class2{
+	color:blue;
+}
+
+.class3{
+	color:green;
+}
+
+.black{
+	color:black;
+}
+</style>
+</head>
+
+<body>
+
+<div id="cont">
+	<script id="tpl" type="text/html">
+		<ul>
+			<%for(var i in data.items){%>
+				<li class="zd">name:<%=data.items[i].name%>&nbsp;value:<%=data.items[i].value%></li>
+			<%}%>
+			<%:=newListTpl({list: items2, tpl: childTpl})%>
+		</ul>
+	</script>
+	<script id="child-tpl" type="text/html">
+		<%for(var z = 0; z < data.items2.length; z++){%>
+			<li class="<%=data.css1[z]%>">用户：<%=data.items2[z]%></li>
+		<%}%>
+		<%:=newListTpl({list: items2, tpl: subChildTpl})%>
+	</script>
+	<script id="sub-child-tpl" type="text/html">
+		<li>
+			1111
+		</li>
+	</script>
+</div>
+<img src="JQ的课件及练习/jq初级练习/img/hdp00.jpg" data-original="JQ的课件及练习/jq初级练习/img/hdp00.jpg" alt="" />
+<script src="jquery-1.10.1.min.js"></script>
+<script src="jquery.lazyload.js"></script>
+<script src="template.js"></script>
+<script>
+var childTpl = 	template(document.getElementById('child-tpl').innerHTML);
+var subChildTpl = template(document.getElementById('sub-child-tpl').innerHTML);
+var data = {
+	listTpl:subChildTpl,
+	newListTpl:childTpl,
+	items:[
+		{'name':'周','value':'一'},
+		{'name':'吴','value':'二'},
+		{'name':'郑','value':'三'},
+		{'name':'王','value':'四'}
+	],
+	items2:['张三','李四','王五'],
+	css1:['class1','class2','class3'],
+};
+
+var data2 = ['张三1','李四2','王五3'];
+
+var conthtml = template(document.getElementById('tpl').innerHTML, data);
+document.getElementById('cont').innerHTML = conthtml;
+</script>      
+</body>
+</html>
