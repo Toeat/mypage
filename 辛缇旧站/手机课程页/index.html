@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="list.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="course.css">
+	</head>
+	<body>
+		<div class="course-body">
+			<div class="course-tit">
+				<strong>法式西点课程</strong>
+				<img src="images/tit.jpg" alt="" />
+			</div>
+			<div class="small-tit"><strong>生日蛋糕课程</strong></div>
+			<img class="course-img" src="images/course-img1.jpg" alt="" />
+			<a class="coures-link" href="#">点击获取课程详细信息</a>
+			<div class="course-tit">
+				<strong>辛缇教学优势</strong>
+				<img src="images/tit.jpg" alt="" />
+			</div>
+			<ul class="ys-list">
+				<li>
+					<img src="images/course-ty1.jpg" alt="" />
+					<strong>香港独立研发中心</strong>
+					<p>为你的产品保驾护航</p>
+				</li>
+				<li>
+					<img src="images/course-ty2.jpg" alt="" />
+					<strong>五年免费复训及更新</strong>
+					<p>超长的学后服务期</p>
+				</li>
+				<li>
+					<img src="images/course-ty3.jpg" alt="" />
+					<strong>全实操教学</strong>
+					<p>提升学习效率<br/>扎实功底</p>
+				</li>
+				<li>
+					<img src="images/course-ty4.jpg" alt="" />
+					<strong>个性化定制课程</strong>
+					<p>按照学习目的<br/>
+全定制课程</p>
+				</li>
+				<li>
+					<img src="images/course-ty5.jpg" alt="" />
+					<strong>小班一对一教学</strong>
+					<p>3—5人的小班<br/>
+及教学模式</p>
+				</li>
+				<li>
+					<img src="images/course-ty6.jpg" alt="" />
+					<strong>创业指导一站式服务</strong>
+					<p>营销、运营、拓客知识一站式学习</p>
+				</li>
+			</ul>
+			<div class="course-tit">
+				<strong>学员花絮</strong>
+				<img src="images/tit.jpg" alt="" />
+			</div>
+			<img class="course-img" src="images/course-ty7.jpg" alt="" />
+			<div class="course-tit">
+				<strong>学员案列</strong>
+				<img src="images/tit.jpg" alt="" />
+			</div>
+			<img class="course-img" src="images/course-ty8.jpg" alt="" />
+			<div class="spacing" style="height:30px;"></div>
+			<div class="gBook mg10">
+				<div class="meassageBook" id="message">
+					<form action="{dede:global.cfg_indexurl/}/plus/diy.php" enctype="multipart/form-data" method="post">
+							<input type="hidden" name="action" value="post" />
+							<input type="hidden" name="diyid" value="1" />
+							<input type="hidden" name="do" value="2" />
+					    <div class="p-input">姓名：<input type="text" id="username" name="username" class="text" value="" /></div>
+					    <div class="p-input">手机：<input type="text" id="mobile" name="mobile" class="text" value="" /></div>
+					    <div class="p-input">
+					        留言：<input type="text" id="contents" name="contents" class="text" value="我想学私房烘焙，请问学费多少？" placeholder="请输入留言内容" />
+					        <select id="selId" class="seltext" onchange="getcontent()">
+					            <option>我想学私房烘焙，请问学费多少？</option>
+					            <option>请问把课程表发给我？</option>
+					            <option>我想开店，请问怎么开店的？</option>
+					            <option>其他</option>
+					        </select>
+					    </div>
+					    <p><input name="messubmit" type="submit" class="button" value="免费获取课程详细信息" onclick="return checkForm(this.form)" /></p>
+					    <input id="itemname" type="hidden" name="itemname" value="{dede:field.title/}" />
+					    <input id="djtime" type="hidden" name="djtime" />   
+					    <input type="hidden" name="dede_fields" value="username,text;mobile,text;contents,multitext;djtime,datetime;itemname,text" />
+						<input type="hidden" name="dede_fieldshash" value="7c15eae18cf6382180e05baa816f57f6" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
